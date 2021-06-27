@@ -71,7 +71,7 @@
                                     </div>
                                     <div class="blog__sidebar__recent__item__text">
                                         <h6>Tips menyimpan alat dapur <br /> </h6>
-                                        <span>MAR 07, 2021</span>
+                                        <span>MAR 03, 2021</span>
                                     </div>
                                 </a>
                             </div>
