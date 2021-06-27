@@ -135,6 +135,8 @@
                                     </ul>
                                     <h5><a href="#">Rekomendasi Alat Dapur</a></h5>
                                     <p>Berbagai rekomendasi merk dan brand peralatan masak...</p>
+                                    <p>Berbagai rekomendasi merk dan brand peralatan masak</p>
+
                                     <a href="#" class="blog__btn">READ MORE <span class="arrow_right"></span></a>
                                 </div>
                             </div>
@@ -151,6 +153,8 @@
                                     </ul>
                                     <h5><a href="#">Lifestyle</a></h5>
                                     <p>Gaya hidup seputar food kuliner dan tips gaya hidup sehat...</p>
+                                    <p>Gaya hidup seputar food kuliner dan tips gaya hidup sehat</p>
+
                                     <a href="#" class="blog__btn">READ MORE <span class="arrow_right"></span></a>
                                 </div>
                             </div>
@@ -160,7 +164,6 @@
                             <div class="product__pagination blog__pagination">
                                 <a href="#">1</a>
                                 <a href="#">2</a>
-                                <a href="#">3</a>
                                 <a href="#"><i class="fa fa-long-arrow-right"></i></a>
                             </div>
                         </div>
