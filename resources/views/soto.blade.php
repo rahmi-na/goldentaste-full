@@ -22,7 +22,7 @@
                 <li>1 sdt merica bubuk</li>
             </ul>
             <hr>
-            <h5>Pelengkap :</h5>
+            <h5>Pelengkap:</h5>
             <ul>
                 <li>3 cm kayumanis</li>
                 <li>3 Buah cengkeh</li>
