@@ -134,7 +134,7 @@
                                         <li><i class="fa fa-comment-o"></i> 5</li>
                                     </ul>
                                     <h5><a href="#">Rekomendasi Alat Dapur</a></h5>
-                                    <p>Berbagai rekomendasi merk dan brand peralatan masak</p>
+                                    <p>Berbagai rekomendasi merk dan brand peralatan masak...</p>
                                     <a href="#" class="blog__btn">READ MORE <span class="arrow_right"></span></a>
                                 </div>
                             </div>
@@ -150,7 +150,7 @@
                                         <li><i class="fa fa-comment-o"></i> 5</li>
                                     </ul>
                                     <h5><a href="#">Lifestyle</a></h5>
-                                    <p>Gaya hidup seputar food kuliner dan tips gaya hidup sehat</p>
+                                    <p>Gaya hidup seputar food kuliner dan tips gaya hidup sehat...</p>
                                     <a href="#" class="blog__btn">READ MORE <span class="arrow_right"></span></a>
                                 </div>
                             </div>
