@@ -98,7 +98,7 @@
                                 </div>
                                 <div class="blog__item__text">
                                     <ul>
-                                        <li><i class="fa fa-calendar-o"></i> May 4,2019</li>
+                                        <li><i class="fa fa-calendar-o"></i> May 9,2019</li>
                                         <li><i class="fa fa-comment-o"></i> 5</li>
                                     </ul>
                                     <h5><a href="#">TIPS MEMASAK DAGING</a></h5>
