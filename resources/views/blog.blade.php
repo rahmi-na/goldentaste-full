@@ -80,10 +80,10 @@
                             <h4>Search By</h4>
                             <div class="blog__sidebar__item__tags">
                                 <a href="#">Tips Sayur</a>
-                                <a href="#">Beauty</a>
-                                <a href="#">Vegetables</a>
-                                <a href="#">Fruit</a>
-                                <a href="#">Healthy Food</a>
+                                <a href="#">Tips Daging</a>
+                                <a href="#">Tips Alat Dapur</a>
+                                <a href="#">Rekomendasi Resep</a>
+                                <a href="#">Makanan Sehat</a>
                                 <a href="#">Lifestyle</a>
                             </div>
                         </div>
@@ -117,9 +117,8 @@
                                         <li><i class="fa fa-calendar-o"></i> May 4,2019</li>
                                         <li><i class="fa fa-comment-o"></i> 5</li>
                                     </ul>
-                                    <h5><a href="#">Visit the clean farm in the US</a></h5>
-                                    <p>Sed quia non numquam modi tempora indunt ut labore et dolore magnam aliquam
-                                        quaerat </p>
+                                    <h5><a href="#">Hidup Sehat</a></h5>
+                                    <p>Dengan berolahraga dan konsumsi makanan sehat</p>
                                     <a href="#" class="blog__btn">READ MORE <span class="arrow_right"></span></a>
                                 </div>
                             </div>
@@ -134,9 +133,8 @@
                                         <li><i class="fa fa-calendar-o"></i> May 4,2019</li>
                                         <li><i class="fa fa-comment-o"></i> 5</li>
                                     </ul>
-                                    <h5><a href="#">Cooking tips make cooking simple</a></h5>
-                                    <p>Sed quia non numquam modi tempora indunt ut labore et dolore magnam aliquam
-                                        quaerat </p>
+                                    <h5><a href="#">Rekomendasi Alat Dapur</a></h5>
+                                    <p>Berbagai rekomendasi merk dan brand peralatan masak</p>
                                     <a href="#" class="blog__btn">READ MORE <span class="arrow_right"></span></a>
                                 </div>
                             </div>
@@ -151,52 +149,17 @@
                                         <li><i class="fa fa-calendar-o"></i> May 4,2019</li>
                                         <li><i class="fa fa-comment-o"></i> 5</li>
                                     </ul>
-                                    <h5><a href="#">Cooking tips make cooking simple</a></h5>
-                                    <p>Sed quia non numquam modi tempora indunt ut labore et dolore magnam aliquam
-                                        quaerat </p>
+                                    <h5><a href="#">Lifestyle</a></h5>
+                                    <p>Gaya hidup seputar food kuliner dan tips gaya hidup sehat</p>
                                     <a href="#" class="blog__btn">READ MORE <span class="arrow_right"></span></a>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-6 col-md-6 col-sm-6">
-                            <div class="blog__item">
-                                <div class="blog__item__pic">
-                                    <img src="img/blog/blog-4.jpg" alt="">
-                                </div>
-                                <div class="blog__item__text">
-                                    <ul>
-                                        <li><i class="fa fa-calendar-o"></i> May 4,2019</li>
-                                        <li><i class="fa fa-comment-o"></i> 5</li>
-                                    </ul>
-                                    <h5><a href="#">The Moment You Need To Remove Garlic From The Menu</a></h5>
-                                    <p>Sed quia non numquam modi tempora indunt ut labore et dolore magnam aliquam
-                                        quaerat </p>
-                                    <a href="#" class="blog__btn">READ MORE <span class="arrow_right"></span></a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-6 col-md-6 col-sm-6">
-                            <div class="blog__item">
-                                <div class="blog__item__pic">
-                                    <img src="img/blog/blog-6.jpg" alt="">
-                                </div>
-                                <div class="blog__item__text">
-                                    <ul>
-                                        <li><i class="fa fa-calendar-o"></i> May 4,2019</li>
-                                        <li><i class="fa fa-comment-o"></i> 5</li>
-                                    </ul>
-                                    <h5><a href="#">Cooking tips make cooking simple</a></h5>
-                                    <p>Sed quia non numquam tempora indunt ut labore et dolore magnam aliquam
-                                        quaerat </p>
-                                    <a href="#" class="blog__btn">READ MORE <span class="arrow_right"></span></a>
-                                </div>
-                            </div>
-                        </div>
+                    
                         <div class="col-lg-12">
                             <div class="product__pagination blog__pagination">
                                 <a href="#">1</a>
                                 <a href="#">2</a>
-                                <a href="#">3</a>
                                 <a href="#"><i class="fa fa-long-arrow-right"></i></a>
                             </div>
                         </div>
