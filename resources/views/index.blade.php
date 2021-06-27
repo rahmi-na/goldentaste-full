@@ -88,7 +88,7 @@
                     <div class="featured__item">
                         <div class="featured__item__pic set-bg" data-setbg="img/featured/cireng.jpg">
                             <ul class="featured__item__pic__hover">
-                                <li><a href="#"><i class="fa fa-whatsapp"></i></a></li>
+                                <li><a href="https://wa.widget.web.id/c2c6ff"><i class="fa fa-whatsapp"></i></a></li>
                             </ul>
                         </div>
                         <div class="featured__item__text">
