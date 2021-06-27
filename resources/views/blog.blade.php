@@ -186,7 +186,7 @@
                                         <li><i class="fa fa-comment-o"></i> 5</li>
                                     </ul>
                                     <h5><a href="#">Cooking tips make cooking simple</a></h5>
-                                    <p>Sed quia non numquam modi tempora indunt ut labore et dolore magnam aliquam
+                                    <p>Sed quia non numquam tempora indunt ut labore et dolore magnam aliquam
                                         quaerat </p>
                                     <a href="#" class="blog__btn">READ MORE <span class="arrow_right"></span></a>
                                 </div>
