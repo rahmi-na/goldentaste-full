@@ -49,7 +49,7 @@
                             <div class="blog__sidebar__recent">
                                 <a href="#" class="blog__sidebar__recent__item">
                                     <div class="blog__sidebar__recent__item__pic">
-                                        <img src="img/blog/sidebar/sr-1.jpg" alt="">
+                                        <img src="img/blog/sidebar/donat.jpg" alt="">
                                     </div>
                                     <div class="blog__sidebar__recent__item__text">
                                         <h6>10 Tips Memasak <br /> donat kentang</h6>
@@ -67,7 +67,7 @@
                                 </a>
                                 <a href="#" class="blog__sidebar__recent__item">
                                     <div class="blog__sidebar__recent__item__pic">
-                                        <img src="img/blog/sidebar/sr-3.jpg" alt="">
+                                        <img src="img/blog/sidebar/alatdapur.jpg" alt="">
                                     </div>
                                     <div class="blog__sidebar__recent__item__text">
                                         <h6>Tips menyimpan alat dapur <br /> </h6>
@@ -94,7 +94,7 @@
                         <div class="col-lg-6 col-md-6 col-sm-6">
                             <div class="blog__item">
                                 <div class="blog__item__pic">
-                                    <img src="img/blog/blog-2.jpg" alt="">
+                                    <img src="img/blog/daging.jpg" alt="">
                                 </div>
                                 <div class="blog__item__text">
                                     <ul>
@@ -110,7 +110,7 @@
                         <div class="col-lg-6 col-md-6 col-sm-6">
                             <div class="blog__item">
                                 <div class="blog__item__pic">
-                                    <img src="img/blog/blog-3.jpg" alt="">
+                                    <img src="img/blog/hidupsehat.jpg" alt="">
                                 </div>
                                 <div class="blog__item__text">
                                     <ul>
@@ -126,7 +126,7 @@
                         <div class="col-lg-6 col-md-6 col-sm-6">
                             <div class="blog__item">
                                 <div class="blog__item__pic">
-                                    <img src="img/blog/blog-1.jpg" alt="">
+                                    <img src="img/blog/alat.jpg" alt="">
                                 </div>
                                 <div class="blog__item__text">
                                     <ul>
@@ -135,8 +135,6 @@
                                     </ul>
                                     <h5><a href="#">Rekomendasi Alat Dapur</a></h5>
                                     <p>Berbagai rekomendasi merk dan brand peralatan masak...</p>
-                                    <p>Berbagai rekomendasi merk dan brand peralatan masak</p>
-
                                     <a href="#" class="blog__btn">READ MORE <span class="arrow_right"></span></a>
                                 </div>
                             </div>
@@ -144,29 +142,27 @@
                         <div class="col-lg-6 col-md-6 col-sm-6">
                             <div class="blog__item">
                                 <div class="blog__item__pic">
-                                    <img src="img/blog/blog-4.jpg" alt="">
+                                    <img src="img/blog/life.jpeg" alt="">
                                 </div>
                                 <div class="blog__item__text">
                                     <ul>
-                                        <li><i class="fa fa-calendar-o"></i> May 4,2019</li>
+                                        <li><i class="fa fa-calendar-o"></i> May 2,2019</li>
                                         <li><i class="fa fa-comment-o"></i> 5</li>
                                     </ul>
                                     <h5><a href="#">Lifestyle</a></h5>
                                     <p>Gaya hidup seputar food kuliner dan tips gaya hidup sehat...</p>
-                                    <p>Gaya hidup seputar food kuliner dan tips gaya hidup sehat</p>
-
                                     <a href="#" class="blog__btn">READ MORE <span class="arrow_right"></span></a>
                                 </div>
                             </div>
                         </div>
                     
-                        <div class="col-lg-12">
+                        <!-- <div class="col-lg-12"> 
                             <div class="product__pagination blog__pagination">
                                 <a href="#">1</a>
                                 <a href="#">2</a>
                                 <a href="#"><i class="fa fa-long-arrow-right"></i></a>
                             </div>
-                        </div>
+                        </div> -->
                     </div>
                 </div>
             </div>
