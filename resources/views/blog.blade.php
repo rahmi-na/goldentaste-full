@@ -49,10 +49,10 @@
                             <div class="blog__sidebar__recent">
                                 <a href="#" class="blog__sidebar__recent__item">
                                     <div class="blog__sidebar__recent__item__pic">
-                                        <img src="img/blog/sidebar/donat.jpg" alt="">
+                                        <img src="img/blog/sidebar/sr-1.jpg" alt="">
                                     </div>
                                     <div class="blog__sidebar__recent__item__text">
-                                        <h6>10 Tips Memasak <br /> donat kentang</h6>
+                                        <h6>Manfaat berry <br /> pada tubuh</h6>
                                         <span>MAR 05, 2021</span>
                                     </div>
                                 </a>
@@ -67,10 +67,10 @@
                                 </a>
                                 <a href="#" class="blog__sidebar__recent__item">
                                     <div class="blog__sidebar__recent__item__pic">
-                                        <img src="img/blog/sidebar/alatdapur.jpg" alt="">
+                                        <img src="img/blog/sidebar/sr-3.jpg" alt="">
                                     </div>
                                     <div class="blog__sidebar__recent__item__text">
-                                        <h6>Tips menyimpan alat dapur <br /> </h6>
+                                        <h6>Manfaat jus <br /> pada kesehatan </h6>
                                         <span>MAR 03, 2021</span>
                                     </div>
                                 </a>
@@ -146,7 +146,7 @@
                                 </div>
                                 <div class="blog__item__text">
                                     <ul>
-                                        <li><i class="fa fa-calendar-o"></i> May 4,2019</li>
+                                        <li><i class="fa fa-calendar-o"></i> May 2,2019</li>
                                         <li><i class="fa fa-comment-o"></i> 5</li>
                                     </ul>
                                     <h5><a href="#">Lifestyle</a></h5>
@@ -155,14 +155,6 @@
                                 </div>
                             </div>
                         </div>
-                    
-                        <!-- <div class="col-lg-12">
-                            <div class="product__pagination blog__pagination">
-                                <a href="#">1</a>
-                                <a href="#">2</a>
-                                <a href="#"><i class="fa fa-long-arrow-right"></i></a>
-                            </div>
-                        </div> -->
                     </div>
                 </div>
             </div>
