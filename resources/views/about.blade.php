@@ -3,7 +3,7 @@
 @section('content-about')
 
     <!-- Hero Section Begin -->
-    <section class="hero hero-normal">
+    <!-- <section class="hero hero-normal">
         <div class="container">
             <div class="row">
                 <div class="col-lg-9">
@@ -22,7 +22,7 @@
                 </div>
             </div>     
         </div>
-    </section>
+    </section> -->
     <!-- Hero Section End -->
 
     <!-- Breadcrumb Section Begin -->
@@ -55,19 +55,19 @@
                 <div class="col-sm-team-6 col-lg-team-3 text-center">
                     <div class="wrapperr shadow-square-right"><img class="team-card-1" src="img/team/team1.jpg"
                             width="200" alt="..." /></div>
-                    <h5 class="fw-bold mt-team-3 mb-team-1">Rahmi Nurazizah (2019-318)</h5>
+                    <h5 class="fw-bold mt-team-3 mb-team-1">Rahmi Nurazizah <br> (2019-318)</h5>
                     <p class="jabatan">Ceo</p>
                 </div>
                 <div class="col-sm-team-6 col-lg-team-3 text-center">
                     <div class="wrapperr shadow-square-right"><img class="team-card-1" src="img/team/team2.jpg"
                             width="200" alt="..." /></div>
-                    <h5 class="fw-bold mt-team-3 mb-team-1"> Brilliant Alifia (2019-302)</h5>
+                    <h5 class="fw-bold mt-team-3 mb-team-1"> Brilliant Alifia <br> (2019-302)</h5>
                     <p class="jabatan">Ceo</p>
                 </div>
                 <div class="col-sm-team-6 col-lg-team-3 text-center">
                     <div class="wrapperr shadow-square-right"><img class="team-card-1" src="img/team/team3.jpg"
                             width="200" alt="..." /></div>
-                    <h5 class="fw-bold mt-team-3 mb-team-1">Sukma (2019-337)</h5>
+                    <h5 class="fw-bold mt-team-3 mb-team-1">Sukma <br> (2019-337)</h5>
                     <p class="jabatan">Ceo</p>
                 </div>
             </div>
@@ -89,14 +89,14 @@
                     <div class="contact__widget">
                         <span class="icon_pin_alt"></span>
                         <h4>Address</h4>
-                        <p>Universitas Muhammadiyah Malangk</p>
+                        <p>Universitas Muhammadiyah Malang</p>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-3 col-sm-6 text-center">
                     <div class="contact__widget">
                         <span class="icon_clock_alt"></span>
                         <h4>Open time</h4>
-                        <p>10:00 am to 23:00 pm</p>
+                        <p>10:00 am to 22:00 pm</p>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-3 col-sm-6 text-center">
