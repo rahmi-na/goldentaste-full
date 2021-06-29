@@ -7,7 +7,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-9">
-                    <div class="hero__search">
+                    <!-- <div class="hero__search">
                         <div class="hero__search__form">
                             <form action="#">
                                 <div class="hero__search__categories">
@@ -18,7 +18,7 @@
                                 <button type="submit" class="site-btn">SEARCH</button>
                             </form>
                         </div>
-                    </div>
+                    </div> -->
                     <div class="hero__item set-bg" data-setbg="img/hero/banner.jpg">
                         <div class="hero__text">
                             <span>RECIPE</span>
@@ -187,9 +187,9 @@
     <!-- Featured Section End -->
 
     <!-- Services Start -->
-    <section class="pricing-card-area section-padding30">
+    <!-- <section class="pricing-card-area section-padding30">
         <div class="container">
-            <!-- Section Title -->
+            
             <div class="row d-flex justify-content-center">
                 <div class="col-lg-8">
                     <div class="section-title text-center mb-service-70">
@@ -259,7 +259,7 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
     <!-- Services Card End -->
     @endsection
   
