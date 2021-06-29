@@ -96,7 +96,7 @@
                     <div class="contact__widget">
                         <span class="icon_clock_alt"></span>
                         <h4>Open time</h4>
-                        <p>10:00 am to 22:00 pm</p>
+                        <p>10:00 am to 21:00 pm</p>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-3 col-sm-6 text-center">
