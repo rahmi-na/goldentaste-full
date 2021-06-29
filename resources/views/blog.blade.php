@@ -26,12 +26,12 @@
             <div class="row">
                 <div class="col-lg-4 col-md-5">
                     <div class="blog__sidebar">
-                        <!-- <div class="blog__sidebar__search">
+                        <div class="blog__sidebar__search">
                             <form action="#">
                                 <input type="text" placeholder="Search...">
                                 <button type="submit"><span class="icon_search"></span></button>
                             </form>
-                        </div> -->
+                        </div>
 
                         <!-- <div class="blog__sidebar__item">
                             <h4>Categories</h4>
@@ -49,10 +49,10 @@
                             <div class="blog__sidebar__recent">
                                 <a href="#" class="blog__sidebar__recent__item">
                                     <div class="blog__sidebar__recent__item__pic">
-                                        <img src="img/blog/sidebar/donat.jpg" alt="">
+                                        <img src="img/blog/sidebar/sr-1.jpg" alt="">
                                     </div>
                                     <div class="blog__sidebar__recent__item__text">
-                                        <h6>Manfaat berry <br /> pada tubuh</h6>
+                                        <h6>Manfaat berry<br /> pada tubuh</h6>
                                         <span>MAR 05, 2021</span>
                                     </div>
                                 </a>
@@ -67,7 +67,7 @@
                                 </a>
                                 <a href="#" class="blog__sidebar__recent__item">
                                     <div class="blog__sidebar__recent__item__pic">
-                                        <img src="img/blog/sidebar/alatdapur.jpg" alt="">
+                                        <img src="img/blog/sidebar/sr-3.jpg" alt="">
                                     </div>
                                     <div class="blog__sidebar__recent__item__text">
                                         <h6>Manfaat jus <br /> pada kesehatan </h6>
