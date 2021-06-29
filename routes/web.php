@@ -20,6 +20,7 @@ use App\Http\Controllers\CakeController;
 use App\Http\Controllers\DashboardController;
 use App\Http\Controllers\KelolaController;
 use App\Http\Controllers\NewsController;
+use App\Http\Controllers\MessageController;
 
 /*
 |--------------------------------------------------------------------------
@@ -33,7 +34,6 @@ use App\Http\Controllers\NewsController;
 */
 
 Route::get('/', [HomeController::class, 'index'])->name('index');
-
 
 Route::get('/recipe', function () {
     return view('recipe');
@@ -83,6 +83,7 @@ Route::get('/cireng', function () {
     return view('cireng');
 });
 
+
 Route::get('/alpukat', function () {
     return view('alpukat');
 });
@@ -95,5 +96,19 @@ Route::prefix('admin')->middleware('auth.admin')->group(function(){
     Route::get('kelola', [KelolaController::class, 'index'])->name('admin.kelola.index');
     Route::get('kelola', [DashboardController::class, 'index'])->name('dashboard.index');
     Route::get('authors', [AuthorController::class, 'index'])->name('authors.index');
+    Route::get('authors/create', [AuthorController::class, 'create'])->name('authors.create');
+    Route::post('authors/store', [AuthorController::class, 'store'])->name('authors.store');
+    Route::get('authors/edit/{id}', [AuthorController::class, 'edit'])->name('authors.edit');
+    Route::put('authors/update/{id}', [AuthorController::class, 'update'])->name('authors.update');
+    Route::delete('authors/destroy/{id}', [AuthorController::class, 'destroy'])->name('authors.destroy');
+
+    Route::get('messages', [MessageController::class, 'index'])->name('messages.index');
+    Route::get('messages/create', [MessageController::class, 'create'])->name('messages.create');
+    //Route::post('messages/store', [MessagedataController::class, 'store'])->name('messages.store');
+    Route::get('messages/edit/{id}', [MessageController::class, 'edit'])->name('messages.edit');
+    Route::put('messages/update/{id}', [MessageController::class, 'update'])->name('messages.update');
+    Route::delete('messages/destroy/{id}', [MessageController::class, 'destroy'])->name('messages.destroy');
     Route::get('news', [NewsController::class, 'index'])->name('news.index');
 });
+
+Route::post('messages', [MessageController::class, 'store'])->name('messages.store');
