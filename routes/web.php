@@ -34,58 +34,71 @@ use App\Http\Controllers\NewsController;
 
 Route::get('/', [HomeController::class, 'index'])->name('index');
 
+Route::get('/recipe', [RecipeController::class, 'index'])->name('recipe');
 
-Route::get('/recipe', function () {
-    return view('recipe');
-});
+// Route::get('/recipe', function () {
+//     return view('recipe');
+// });
 
-Route::get('/blog', function () {
-    return view('blog');
-});
+Route::get('/blog', [BlogController::class, 'index'])->name('blog');
+// Route::get('/blog', function () {
+//     return view('blog');
+// });
 
-Route::get('/about', function () {
-    return view('about');
-});
+Route::get('/about', [AboutController::class, 'index'])->name('about');
+// Route::get('/about', function () {
+//     return view('about');
+// });
 
-Route::get('/signin', function () {
-    return view('signin');
-});
+Route::get('/signin', [SigninController::class, 'index'])->name('signin');
+// Route::get('/signin', function () {
+//     return view('signin');
+// });
 
-Route::get('/signup', function () {
-    return view('signup');
-});
+Route::get('/signup', [SignupController::class, 'index'])->name('signup');
+// Route::get('/signup', function () {
+//     return view('signup');
+// });
 
-Route::get('/ayamBakarTaliwang', function () {
-    return view('ayamBakarTaliwang');
-});
+Route::get('/ayamBakarTaliwang', [TaliwangController::class, 'index'])->name('ayamBakarTaliwang');
+// Route::get('/ayamBakarTaliwang', function () {
+//     return view('ayamBakarTaliwang');
+// });
 
-Route::get('/ondeOndePelangi', function () {
-    return view('ondeOndePelangi');
-});
+Route::get('/ondeOndePelangi', [OndeController::class, 'index'])->name('ondeOndePelangi');
+// Route::get('/ondeOndePelangi', function () {
+//     return view('ondeOndePelangi');
+// });
 
-Route::get('/putriSalju', function () {
-    return view('salju');
-});
+Route::get('/putriSalju', [SaljuController::class, 'index'])->name('salju');
+// Route::get('/putriSalju', function () {
+//     return view('salju');
+// });
 
-Route::get('/sotoBanjar', function () {
-    return view('soto');
-});
+Route::get('/sotoBanjar', [SotoController::class, 'index'])->name('soto');
+// Route::get('/sotoBanjar', function () {
+//     return view('soto');
+// });
 
-Route::get('/dalgona', function () {
-    return view('dalgona');
-});
+Route::get('/dalgona', [DalgonaController::class, 'index'])->name('dalgona');
+// Route::get('/dalgona', function () {
+//     return view('dalgona');
+// });
 
-Route::get('/strawberry', function () {
-    return view('strawberry');
-});
+Route::get('/strawberry', [CakeController::class, 'index'])->name('strawberry');
+// Route::get('/strawberry', function () {
+//     return view('strawberry');
+// });
 
-Route::get('/cireng', function () {
-    return view('cireng');
-});
+Route::get('/cireng', [CirengController::class, 'index'])->name('cirengp');
+// Route::get('/cireng', function () {
+//     return view('cireng');
+// });
 
-Route::get('/alpukat', function () {
-    return view('alpukat');
-});
+Route::get('/alpukat', [AlpukatController::class, 'index'])->name('alpukat');
+// Route::get('/alpukat', function () {
+//     return view('alpu  kat');
+// });
 
 Route::get('/login', [AuthController::class, 'index'])->name('auth.index');
 Route::post('/login', [AuthController::class, 'login'])->name('auth.login');
@@ -95,5 +108,10 @@ Route::prefix('admin')->middleware('auth.admin')->group(function(){
     Route::get('kelola', [KelolaController::class, 'index'])->name('admin.kelola.index');
     Route::get('kelola', [DashboardController::class, 'index'])->name('dashboard.index');
     Route::get('authors', [AuthorController::class, 'index'])->name('authors.index');
+    Route::get('authors/create', [AuthorController::class, 'create'])->name('authors.create');
+    Route::post('authors/store', [AuthorController::class, 'store'])->name('authors.store');
+    Route::get('authors/edit/{id}', [AuthorController::class, 'edit'])->name('authors.edit');
+    Route::put('authors/update/{id}', [AuthorController::class, 'update'])->name('authors.update');
+    Route::delete('authors/destroy/{id}', [AuthorController::class, 'destroy'])->name('authors.destroy');
     Route::get('news', [NewsController::class, 'index'])->name('news.index');
 });

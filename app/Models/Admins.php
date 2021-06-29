@@ -10,4 +10,8 @@ class Admins extends Authenticatable
 {
     use HasFactory;
     protected $guarded=[];
+
+    public function Transactions(){
+        return $this->hasMany(Transactions::class);
+    }
 }
