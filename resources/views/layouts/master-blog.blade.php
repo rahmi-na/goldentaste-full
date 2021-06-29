@@ -109,7 +109,7 @@
                         <h6>Useful Links</h6>
                         <ul>
                             <li><a href="/about">About Us</a></li>
-                            <li><a href="/home">Home</a></li>
+                            <li><a href="/">Home</a></li>
                             <li><a href="/about">Our Sitemap</a></li>
                         </ul>
                         <ul>

@@ -137,16 +137,17 @@
                     </div>
                 </div>
             </div>
-            <form action="#">
+            <form action="{{route('messages.store')}}" method="POST">
+                @csrf
                 <div class="row">
                     <div class="col-lg-6 col-md-6">
-                        <input type="text" placeholder="Your name">
+                        <input name="name" placeholder="Your name" type="text1">
                     </div>
                     <div class="col-lg-6 col-md-6">
-                        <input type="text" placeholder="Your Email">
+                        <input name="email" placeholder="Your Email" type="text2">
                     </div>
                     <div class="col-lg-12 text-center">
-                        <textarea placeholder="Your message"></textarea>
+                        <textarea name="message" placeholder="Your message" type="text3"></textarea>
                         <button type="submit" class="site-btn">SEND MESSAGE</button>
                     </div>
                 </div>
