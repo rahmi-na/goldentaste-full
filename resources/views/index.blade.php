@@ -7,24 +7,12 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-9">
-                    <!-- <div class="hero__search">
-                        <div class="hero__search__form">
-                            <form action="#">
-                                <div class="hero__search__categories">
-                                    All Categories
-                                    <span class="arrow_carrot-down"></span>
-                                </div>
-                                <input type="text" placeholder="What do yo u need?">
-                                <button type="submit" class="site-btn">SEARCH</button>
-                            </form>
-                        </div>
-                    </div> -->
                     <div class="hero__item set-bg" data-setbg="img/hero/banner.jpg">
                         <div class="hero__text">
                             <span>RECIPE</span>
                             <h2>YOUR <br />FAVORITE <br />FOOD</h2>
                             <p>Practice Makes Perfect</p>
-                            <a href="#" class="site-btn">READ NOW</a>
+                            <a href="/recipe" class="site-btn">READ NOW</a>
                         </div>
                     </div>
                 </div>
