@@ -34,10 +34,11 @@
 
 <body class="hold-transition sidebar-mini layout-fixed">
     <div class="wrapper">
-
-        <div class="container mt-5">
-            Selamat datang {{Auth::guard('admin')->user()->name}}
-            <a href="{{route('auth.logout')}}">Logout</a>
+        <div class="pull-right">
+            <div class="container mt-5">
+                Selamat datang {{Auth::guard('admin')->user()->name}}
+                <a  class="btn btn-primary"href="{{route('auth.logout')}}">Logout</a>
+            </div>
         </div>
         <!-- Navbar -->
         <nav class="main-header navbar navbar-expand navbar-white navbar-light">
@@ -116,11 +117,11 @@
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a href="{{ route('news.index') }}"
-                                class="nav-link {{Request::is('news') ? 'active' : ''}}">
+                            <a href="{{ route('messages.index') }}"
+                                class="nav-link {{Request::is('messages') ? 'active' : ''}}">
                                 <i class="nav-icon fas fa-shopping-basket"></i>
                                 <p>
-                                    News
+                                    Message
                                 </p>
                             </a>
                         </li>

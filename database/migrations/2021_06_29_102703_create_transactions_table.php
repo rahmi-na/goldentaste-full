@@ -16,10 +16,12 @@ class CreateTransactionsTable extends Migration
         Schema::create('transactions', function (Blueprint $table) {
             $table->id();
             $table->foreignId('admins_id')->references('id')->on('admins')->onUpdate('cascade')->onDelete('cascade');
+            $table->foreignId('messages_id')->references('id')->on('messages')->onUpdate('cascade')->onDelete('cascade');
             $table->integer('qty');
             $table->string('capture');
             $table->enum('status', ['pending', 'denied', 'packing', 'sent']);
             $table->timestamps();
+            
         });
     }
 
