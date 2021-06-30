@@ -31,7 +31,6 @@
             <th>Password</th>
             <th>Action</th>
         </thead>
-
         <tbody>
             @foreach($admin as $data)
             <tr>

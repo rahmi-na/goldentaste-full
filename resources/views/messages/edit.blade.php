@@ -8,15 +8,15 @@
         @csrf
         <div class="form-group">
             <label for="">Name</label>
-            <input class="form-control" type="text" name="name" id="" value="{{$edit->name}}">
+            <input class="form-control" type="text1" name="name" id="" value="{{$edit->name}}">
         </div>
         <div class="form-group">
             <label for="">Email</label>
-            <input class="form-control" type="text" name="email" id="" value="{{$edit->email}}">
+            <input class="form-control" type="text2" name="email" id="" value="{{$edit->email}}">
         </div>
         <div class="form-group">
             <label for="">Message</label>
-            <input class="form-control" type="text" name="problem" id="" value="{{$edit->problem}}">
+            <input class="form-control" type="text3" name="message" id="" value="{{$edit->message}}">
         </div>
         <div class="pull-right">
             <a class="btn btn-primary" href="{{ route('messages.index') }}"> Back</a>

@@ -15,14 +15,12 @@
         </div>
         <div class="form-group">
             <label for="">Message</label>
-            <input class="form-control" type="text" name="problem" id="" required>
+            <input class="form-control" type="text" name="message" id="" required>
         </div>
         <div class="pull-right">
             <a class="btn btn-primary" href="{{ route('messages.index') }}"> Back</a>
             <button class="btn btn-success" type="submit">Submit</button>
         </div>
-        <!-- <a href="{{route('messages.index')}}">BACK</a>
-        <button class="btn btn-success" type="submit">Submit</button> -->
     </form>
 </div>
 

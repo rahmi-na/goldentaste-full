@@ -39,14 +39,12 @@
                 <td>{{$data->email}}</td>
                 <td>{{$data->message}}</td>
                 <td>
-                    <div class="pull-right">
-                        <a href="{{route('messages.edit', $data->id)}}" class="btn btn-warning">Edit</a>
-                        <form method="POST" action="{{ route('messages.destroy', [$data->id]) }}">
-                            @method('DELETE')
-                            @csrf
-                            <button type="submit" class="btn btn-danger">Delete</button>
-                        </form>
-                    </div>
+                    <a href="{{route('messages.edit', $data->id)}}" class="btn btn-warning">Edit</a>
+                    <form method="POST" action="{{ route('messages.destroy', [$data->id]) }}">
+                        @method('DELETE')
+                        @csrf
+                        <button type="submit" class="btn btn-danger">Delete</button>
+                    </form>
                 </td>
             </tr>
             @endforeach
