@@ -11,6 +11,7 @@ class AuthorController extends Controller
         $admin = Admins::paginate(5);
         return view ('authors.index', compact('admin'));
     }
+    
   
     public function destroy($id){
         $admin = Admins::find($id)->delete();
