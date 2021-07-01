@@ -32,15 +32,16 @@
             <th>Action</th>
         </thead>
         <tbody>
-            @foreach($admin as $data)
+            @foreach($admin as $data => $hasil)
             <tr>
-                <td>{{$loop->iteration}}</td>
-                <td>{{$data->name}}</td>
-                <td>{{$data->username}}</td>
-                <td>{{$data->password}}</td>
+                <!-- <td>{{$loop->iteration}}</td> -->
+                <td>{{ $data + $admin->firstitem() }}</td>
+                <td>{{$hasil->name}}</td>
+                <td>{{$hasil->username}}</td>
+                <td>{{$hasil->password}}</td>
                 <td>
-                    <a href="{{route('authors.edit', $data->id)}}" class="btn btn-warning">Edit</a>
-                    <form method="POST" action="{{ route('authors.destroy', [$data->id]) }}">
+                    <a href="{{route('authors.edit', $hasil->id)}}" class="btn btn-warning">Edit</a>
+                    <form method="POST" action="{{ route('authors.destroy', [$hasil->id]) }}">
                         @method('DELETE')
                         @csrf
                         <button type="submit" class="btn btn-danger">Delete</button>
@@ -60,5 +61,6 @@
     </div>
     @endif
 </div>
+{{ $admin->links() }}
 
 @endsection

@@ -8,7 +8,7 @@ use App\Models\Admins;
 class AuthorController extends Controller
 {
     public function index(){
-        $admin = Admins::all();
+        $admin = Admins::paginate(5);
         return view ('authors.index', compact('admin'));
     }
   
