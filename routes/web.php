@@ -21,7 +21,8 @@ use App\Http\Controllers\DashboardController;
 use App\Http\Controllers\KelolaController;
 use App\Http\Controllers\NewsController;
 use App\Http\Controllers\MessageController;
-
+use App\Http\Controllers\CategoryController;
+use App\Http\Controllers\PostController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -35,9 +36,11 @@ use App\Http\Controllers\MessageController;
 
 Route::get('/', [HomeController::class, 'index'])->name('index');
 
-Route::get('/recipe', function () {
-    return view('recipe');
-});
+// Route::get('/recipe', function () {
+//     return view('recipe');
+// });
+
+Route::get('/recipe', [RecipeController::class, 'index'])->name('recipe');
 
 Route::get('/blog', function () {
     return view('blog');
@@ -95,6 +98,7 @@ Route::prefix('admin')->middleware('auth.admin')->group(function(){
     Route::get('kelola', [KelolaController::class, 'index'])->name('admin.kelola.index');
     Route::get('kelola', [KelolaController::class, 'index'])->name('admin.kelola.index');
     Route::get('kelola', [DashboardController::class, 'index'])->name('dashboard.index');
+
     Route::get('authors', [AuthorController::class, 'index'])->name('authors.index');
     Route::get('authors/create', [AuthorController::class, 'create'])->name('authors.create');
     Route::post('authors/store', [AuthorController::class, 'store'])->name('authors.store');
@@ -104,10 +108,24 @@ Route::prefix('admin')->middleware('auth.admin')->group(function(){
 
     Route::get('messages', [MessageController::class, 'index'])->name('messages.index');
     Route::get('messages/create', [MessageController::class, 'create'])->name('messages.create');
-    //Route::post('messages/store', [MessagedataController::class, 'store'])->name('messages.store');
     Route::get('messages/edit/{id}', [MessageController::class, 'edit'])->name('messages.edit');
     Route::put('messages/update/{id}', [MessageController::class, 'update'])->name('messages.update');
     Route::delete('messages/destroy/{id}', [MessageController::class, 'destroy'])->name('messages.destroy');
+
+    Route::get('categories', [CategoryController::class, 'index'])->name('categories.index');
+    Route::get('categories/create', [CategoryController::class, 'create'])->name('categories.create');
+    Route::post('categories', [CategoryController::class, 'store'])->name('categories.store');
+    Route::get('categories/edit/{id}', [CategoryController::class, 'edit'])->name('categories.edit');
+    Route::put('categories/update/{id}', [CategoryController::class, 'update'])->name('categories.update');
+    Route::delete('categories/destroy/{id}', [CategoryController::class, 'destroy'])->name('categories.destroy');
+
+    Route::get('posts', [PostController::class, 'index'])->name('posts.index');
+    Route::get('posts/create', [PostController::class, 'create'])->name('posts.create');
+    Route::post('posts/store', [PostController::class, 'store'])->name('posts.store');
+    Route::get('posts/edit/{id}', [PostController::class, 'edit'])->name('posts.edit');
+    Route::put('posts/update/{id}', [PostController::class, 'update'])->name('posts.update');
+    Route::delete('posts/destroy/{id}', [PostController::class, 'destroy'])->name('posts.destroy');
+
     Route::get('news', [NewsController::class, 'index'])->name('news.index');
 });
 

@@ -19,7 +19,7 @@
     </div><!-- /.container-fluid -->
 </div>
 
-<div class="container-table">
+<div class="container-table" style="padding: 2%">
     <table class="table">
         <div class="text-center">
             <h1 class="text-bold">Message</h1>
@@ -45,6 +45,7 @@
                         @csrf
                         <button type="submit" class="btn btn-danger">Delete</button>
                     </form>
+
                 </td>
             </tr>
             @endforeach

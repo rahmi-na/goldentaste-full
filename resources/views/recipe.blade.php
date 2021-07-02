@@ -79,164 +79,181 @@
                         <div class="col-lg-4 col-md-6 col-sm-6 mix kue">
                             <div class="product__item">
                                 <div class="product__item__pic set-bg" data-setbg="img/product/ayam.jpg">
-                                    <!-- <ul class="product__item__pic__hover">
-                                        <li><a href="#"><i class="fa fa-whatsapp"> Get Recipe</i></a></li>
-                                    </ul> -->
                                 </div>
                                 <div class="product__item__text">
-                                    <h6><a href="/ayamBakarTaliwang"> Ayam Bakar Taliwang</a></h6>
-                                    <p>by: Arnold</p>
+                                    <h6><a href="/ayamBakarTaliwang">Passion fruit soufflé with white chocolate ice cream</a></h6>
+                                    <p>by: Michel Roux Jr</p>
+                                    <div class="ket_recipe">
+                                        <ul>
+                                            <li class="ket_recipe1">
+                                                <span class="fa fa-cutlery" id="span1" aria-hidden="true"> Dessert</span>
+                                                <span class="fa fa-user" id="span1" aria-hidden="true"> 4</span>
+                                                <span class="fa fa-clock-o" id="span1" aria-hidden="true"> 1 hour 10 minutes</span>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="desc">
+                                        <p>
+                                        Rising tall and proud from its ramekin, this soufflé recipe seems simple on paper, but of course is tricky to master. 
+                                        There’s no better chef to learn the dark art of soufflés than Michel Roux Jr, however, 
+                                        and his passion fruit soufflé is one of the best we’ve tasted. 
+                                        Served with a quenelle of rich white chocolate ice cream and fresh passion fruit on top, it’s the perfect dessert for when you’re looking to impress.
+                                        </p>
+                                    </div>
+                                    <button class="custom-btn btn-11" href="#"><i class="fa fa-whatsapp"> Get the Recipe</i></button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-sm-6 mix kue">
+                            <div class="product__item">
+                                <div class="product__item__pic set-bg" data-setbg="img/product/ayam.jpg">
+                                </div>
+                                <div class="product__item__text">
+                                    <h6><a href="/ayamBakarTaliwang">Tagliarini with slow-cooked tomato sauce</a></h6>
+                                    <p>by: PRuth Rogers</p>
                                     <div class="ket_recipe">
                                         <ul>
                                             <li class="ket_recipe1">
                                                 <span class="fa fa-cutlery" id="span1" aria-hidden="true"> Main</span>
                                                 <span class="fa fa-user" id="span1" aria-hidden="true"> 4</span>
-                                                <span class="fa fa-clock-o" id="span1" aria-hidden="true"> 1 hour 30 minutes</span>
+                                                <span class="fa fa-clock-o" id="span1" aria-hidden="true"> 45 minutes</span>
                                             </li>
                                         </ul>
                                     </div>
                                     <div class="desc">
-                                        <p>Helen Graves served up a stunning roast picanha recipe with some subtly spiced quince for a brilliant autumnal roast dinner. Picanha, also known as rump cap, makes a fantastic roasting cut, as the meat can be cooked to perfection in under an hour. Make sure you rest the beef before serving for optimum tenderness.</p>
+                                        <p>
+                                        Pasta with tomato sauce is one of those simple dishes that, when done right, is more comforting and delicious than anything more complex and involved.
+                                         complete with homemade tagliarini – a delicate, silky pasta shape that's like a very thin tagliatelle. It goes without saying that using the very best tomatoes is key to its flavour.
+                                        </p>
+                                    </div>
+                                    <button class="custom-btn btn-11" href="#"><i class="fa fa-whatsapp"> Get the Recipe</i></button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-sm-6 mix kue">
+                            <div class="product__item">
+                                <div class="product__item__pic set-bg" data-setbg="img/product/ayam.jpg">
+                                </div>
+                                <div class="product__item__text">
+                                    <h6><a href="/ayamBakarTaliwang">Roast plantain burrito with Mexican rice and mixed beans</a></h6>
+                                    <p>by: Food Urchin</p>
+                                    <div class="ket_recipe">
+                                        <ul>
+                                            <li class="ket_recipe1">
+                                                <span class="fa fa-cutlery" id="span1" aria-hidden="true"> Main</span>
+                                                <span class="fa fa-user" id="span1" aria-hidden="true"> 4</span>
+                                                <span class="fa fa-clock-o" id="span1" aria-hidden="true"> 50 minutes</span>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="desc">
+                                        <p>
+                                            This beautiful plantain burrito recipe by Food Urchin contains the perfect formula for spicy,
+                                            aromatic Mexican rice. The chilli soaking water is used to cook the rice, giving it a wonderful depth of flavour, 
+                                            along with a host of other delicious aromatics like cinnamon, oregano, lime and cumin.
+                                        </p>
+                                    </div>
+                                    <button class="custom-btn btn-11" href="#"><i class="fa fa-whatsapp"> Get the Recipe</i></button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-sm-6 mix kue">
+                            <div class="product__item">
+                                <div class="product__item__pic set-bg" data-setbg="img/product/ayam.jpg"> 
+                                </div>
+                                <div class="product__item__text">
+                                    <h6><a href="/ayamBakarTaliwang">Chicken satay with peanut sauce</a></h6>
+                                    <p>by: Sally Abé</p>
+                                    <div class="ket_recipe">
+                                        <ul>
+                                            <li class="ket_recipe1">
+                                                <span class="fa fa-cutlery" id="span1" aria-hidden="true"> Starter</span>
+                                                <span class="fa fa-user" id="span1" aria-hidden="true"> 2</span>
+                                                <span class="fa fa-clock-o" id="span1" aria-hidden="true"> 60 minutes</span>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="desc">
+                                        <p>
+                                            Chicken satay with peanut sauce is a party favourite, but also makes a delicious starter. The creamy, slightly sweet sauce in Sally's easy chicken recipe perfectly complements the sticky, tangy meat.
+                                        </p>
+                                    </div>
+                                    <button class="custom-btn btn-11" href="#"><i class="fa fa-whatsapp"> Get the Recipe</i></button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-sm-6 mix kue">
+                            <div class="product__item">
+                                <div class="product__item__pic set-bg" data-setbg="img/product/ayam.jpg">
+                                </div>
+                                <div class="product__item__text">
+                                    <h6><a href="/ayamBakarTaliwang">Bibimbap – mixed rice bowl with beef</a></h6>
+                                    <p>by: Judy Joo</p>
+                                    <div class="ket_recipe">
+                                        <ul>
+                                            <li class="ket_recipe1">
+                                                <span class="fa fa-cutlery" id="span1" aria-hidden="true"> Main</span>
+                                                <span class="fa fa-user" id="span1" aria-hidden="true"> 4</span>
+                                                <span class="fa fa-clock-o" id="span1" aria-hidden="true"> 20 minutes</span>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="desc">
+                                        <p>
+                                            Judy Joo's easy bibimbap recipe is a simplified version of a Korean classic, with a colourful array of vegetables, meat and eggs sitting atop a mound of crisp fried rice. Arranging the vegetables in separate spokes makes this dish a wonderful centrepiece, although remember to mix everything together before you tuck in!
+                                        </p>
+                                    </div>
+                                    <button class="custom-btn btn-11" href="#"><i class="fa fa-whatsapp"> Get the Recipe</i></button>
+                                </div>
+                            </div>
+                        </div>
+
+                        @foreach($data as $recipes)
+                        <div class="col-lg-4 col-md-6 col-sm-6 mix kue">
+                            <div class="product__item">
+                                <div class="product__item__pic set-bg"> <img src="{{ $recipes->photo }}" class="set-bg">
+                                </div>
+                                <div class="product__item__text">
+                                    <h6><a href="/ayamBakarTaliwang">{{ $recipes->title }}</a></h6>
+                                    <p>by: {{ $recipes->chef }}</p>
+                                    <div class="ket_recipe">
+                                        <ul>
+                                            <li class="ket_recipe1">
+                                                <span class="fa fa-cutlery" id="span1" aria-hidden="true"> {{ $recipes->categories->name }}</span>
+                                                <span class="fa fa-user" id="span1" aria-hidden="true"> {{ $recipes->person}}</span>
+                                                <span class="fa fa-clock-o" id="span1" aria-hidden="true"> {{ $recipes->cook_time}}</span>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="desc">
+                                        <p>{{ $recipes->description}}.
+                                        </p>
                                     </div>
                                     <!-- <button id="foot"><button class="button-os"><a href="#" class="fa fa-whatsapp"> Get the recipe</a></button></button> -->
                                     <button class="custom-btn btn-11" href="#"><i class="fa fa-whatsapp"> Get the Recipe</i></button>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-4 col-md-6 col-sm-6 mix kue">
-                            <div class="product__item">
-                                <div class="product__item__pic set-bg" data-setbg="img/product/onde.jpg">
-                                    <!-- <ul class="product__item__pic__hover">
-                                        <li><a href="#"><i class="fa fa-whatsapp"></i></a></li>
-                                    </ul> -->
-                                </div>
-                                <div class="product__item__text">
-                                    <h6><a href="/ondeOndePelangi">Onde Onde Pelangi</a></h6>
-                                    <button class="custom-btn btn-11" href="#"><i class="fa fa-whatsapp"> Get the Recipe</i></button>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 col-md-6 col-sm-6 mix makanan">
-                            <div class="product__item">
-                                <div class="product__item__pic set-bg" data-setbg="img/product/salju.jpg">
-                                    <!-- <ul class="product__item__pic__hover">
-                                        <li><a href="#"><i class="fa fa-whatsapp"></i></a></li>
-                                    </ul> -->
-                                </div>
-                                <div class="product__item__text">
-                                    <h6><a href="/putriSalju">Kue Putri Salju Keju</a></h6>
-                                    <button class="custom-btn btn-11" href="#"><i class="fa fa-whatsapp"> Get the Recipe</i></button>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 col-md-6 col-sm-6 mix jajanan">
-                            <div class="product__item">
-                                <div class="product__item__pic set-bg" data-setbg="img/product/soto.jpg">
-                                    <!-- <ul class="product__item__pic__hover">
-                                        <li><a href="#"><i class="fa fa-whatsapp"></i></a></li>
-                                    </ul> -->
-                                </div>
-                                <div class="product__item__text">
-                                    <h6><a href="/sotoBanjar">Soto Banjar</a></h6>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 col-md-6 col-sm-6 mix minuman">
-                            <div class="product__item">
-                                <div class="product__item__pic set-bg" data-setbg="img/product/dalgona.jpg">
-                                    <!-- <ul class="product__item__pic__hover">
-                                        <li><a href="#"><i class="fa fa-whatsapp"></i></a></li>
-                                    </ul> -->
-                                </div>
-                                <div class="product__item__text">
-                                    <h6><a href="/dalgona">Dalgona Coffee</a></h6>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 col-md-6 col-sm-6 mix jajanan">
-                            <div class="product__item">
-                                <div class="product__item__pic set-bg" data-setbg="img/product/strawberry.jpg">
-                                    <!-- <ul class="product__item__pic__hover">
-                                        <li><a href="#"><i class="fa fa-whatsapp"></i></a></li>
-                                    </ul> -->
-                                </div>
-                                <div class="product__item__text">
-                                    <h6><a href="/strawberry">Strawberry Scheese Biscoff Desert Box</a></h6>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 col-md-6 col-sm-6 mix kue">
+                        @endforeach
+
+                        <!-- <div class="col-lg-4 col-md-6 col-sm-6 mix kue">
                             <div class="product__item">
                                 <div class="product__item__pic set-bg" data-setbg="img/product/cireng.jpg">
-                                    <!-- <ul class="product__item__pic__hover">
-                                        <li><a href="#"><i class="fa fa-whatsapp"></i></a></li>
-                                    </ul> -->
                                 </div>
                                 <div class="product__item__text">
                                     <h6><a href="/cireng">Cireng Bumbu Rujak</a></h6>
                                 </div>
                             </div>
-                        </div>
-                        <div class="col-lg-4 col-md-6 col-sm-6 mix makanan">
+                        </div> -->
+                        <!-- <div class="col-lg-4 col-md-6 col-sm-6 mix makanan">
                             <div class="product__item">
                                 <div class="product__item__pic set-bg" data-setbg="img/product/alpukat.jpg">
-                                    <!-- <ul class="product__item__pic__hover">
-                                        <li><a href="#"><i class="fa fa-whatsapp"></i></a></li>
-                                    </ul> -->
                                 </div>
                                 <div class="product__item__text">
                                     <h6><a href="/alpukat">Es Buah Alpukat Nangka Kelapa Susu</a></h6>
                                 </div>
                             </div>
-                        </div>
-                        <div class="col-lg-4 col-md-6 col-sm-6 mix jajanan">
-                            <div class="product__item">
-                                <div class="product__item__pic set-bg" data-setbg="img/product/product-9.jpg">
-                                    <!-- <ul class="product__item__pic__hover">
-                                        <li><a href="#"><i class="fa fa-whatsapp"></i></a></li>
-                                    </ul> -->
-                                </div>
-                                <div class="product__item__text">
-                                    <h6><a href="#">product 9</a></h6>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 col-md-6 col-sm-6 mix minuman">
-                            <div class="product__item">
-                                <div class="product__item__pic set-bg" data-setbg="img/product/product-10.jpg">
-                                    <!-- <ul class="product__item__pic__hover">
-                                        <li><a href="#"><i class="fa fa-whatsapp"></i></a></li>
-                                    </ul> -->
-                                </div>
-                                <div class="product__item__text">
-                                    <h6><a href="#">product 10</a></h6>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 col-md-6 col-sm-6 mix makanan">
-                            <div class="product__item">
-                                <div class="product__item__pic set-bg" data-setbg="img/product/product-11.jpg">
-                                    <!-- <ul class="product__item__pic__hover">
-                                        <li><a href="#"><i class="fa fa-whatsapp"></i></a></li>
-                                    </ul> -->
-                                </div>
-                                <div class="product__item__text">
-                                    <h6><a href="#">product 11</a></h6>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 col-md-6 col-sm-6 mix minuman">
-                            <div class="product__item">
-                                <div class="product__item__pic set-bg" data-setbg="img/product/product-12.jpg">
-                                    <!-- <ul class="product__item__pic__hover">
-                                        <li><a href="#"><i class="fa fa-whatsapp"></i></a></li>
-                                    </ul> -->
-                                </div>
-                                <div class="product__item__text">
-                                    <h6><a href="#">product 12</a></h6>
-                                </div>
-                            </div>
-                        </div>
+                        </div> -->
                     </div>
                     <div class="product__pagination">
                         <a href="#">1</a>

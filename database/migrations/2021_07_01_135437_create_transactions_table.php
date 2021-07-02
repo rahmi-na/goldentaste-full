@@ -1,3 +1,4 @@
+
 <?php
 
 use Illuminate\Database\Migrations\Migration;
@@ -17,6 +18,8 @@ class CreateTransactionsTable extends Migration
             $table->id();
             $table->foreignId('admins_id')->references('id')->on('admins')->onUpdate('cascade')->onDelete('cascade');
             $table->foreignId('messages_id')->references('id')->on('messages')->onUpdate('cascade')->onDelete('cascade');
+            $table->foreignId('categories_id')->references('id')->on('categories')->onUpdate('cascade')->onDelete('cascade');
+            $table->foreignId('posts_id')->references('id')->on('posts')->onUpdate('cascade')->onDelete('cascade');
             $table->integer('qty');
             $table->string('capture');
             $table->enum('status', ['pending', 'denied', 'packing', 'sent']);

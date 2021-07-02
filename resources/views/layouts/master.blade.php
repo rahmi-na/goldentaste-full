@@ -40,23 +40,7 @@
                 <a  class="btn btn-primary"href="{{route('auth.logout')}}">Logout</a>
             </div>
         </div>
-        <!-- Navbar -->
-        <nav class="main-header navbar navbar-expand navbar-white navbar-light">
-            <!-- Right navbar links -->
-            <ul class="navbar-nav ml-auto">
-                <li class="nav-item">
-                    <a class="nav-link" data-widget="fullscreen" href="#" role="button">
-                        <i class="fas fa-expand-arrows-alt"></i>
-                    </a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" data-widget="control-sidebar" data-slide="true" href="#" role="button">
-                        <i class="fas fa-th-large"></i>
-                    </a>
-                </li>
-            </ul>
-        </nav>
-        <!-- /.navbar -->
+
 
         <!-- Main Sidebar Container -->
         <aside class="main-sidebar sidebar-dark-primary elevation-4">
@@ -76,19 +60,6 @@
                     </div>
                     <div class="info">
                         <a href="#" class="d-block">{{Auth::guard('admin')->user()->name}}<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous"></a>
-                    </div>
-                </div>
-
-                <!-- SidebarSearch Form -->
-                <div class="form-inline">
-                    <div class="input-group" data-widget="sidebar-search">
-                        <input class="form-control form-control-sidebar" type="search" placeholder="Search"
-                            aria-label="Search">
-                        <div class="input-group-append">
-                            <button class="btn btn-sidebar">
-                                <i class="fas fa-search fa-fw"></i>
-                            </button>
-                        </div>
                     </div>
                 </div>
 
@@ -117,6 +88,24 @@
                             </a>
                         </li>
                         <li class="nav-item">
+                            <a href="{{ route('categories.index') }}"
+                                class="nav-link {{Request::is('categories') ? 'active' : ''}}">
+                                <i class="nav-icon fas fa-shopping-basket"></i>
+                                <p>
+                                    Category
+                                </p>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="{{ route('posts.index') }}"
+                                class="nav-link {{Request::is('posts') ? 'active' : ''}}">
+                                <i class="nav-icon fas fa-shopping-basket"></i>
+                                <p>
+                                    Recipe
+                                </p>
+                            </a>
+                        </li>
+                        <li class="nav-item">
                             <a href="{{ route('messages.index') }}"
                                 class="nav-link {{Request::is('messages') ? 'active' : ''}}">
                                 <i class="nav-icon fas fa-shopping-basket"></i>
@@ -125,6 +114,7 @@
                                 </p>
                             </a>
                         </li>
+                        
 
 
                     </ul>

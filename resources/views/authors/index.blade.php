@@ -19,7 +19,7 @@
     </div><!-- /.container-fluid -->
 </div>
 
-<div class="container-table">
+<div class="container-table" style="padding: 2%">
     <table class="table">
         <div class="text-center">
             <h2 class="text-bold">LIST ADMIN</h2>
