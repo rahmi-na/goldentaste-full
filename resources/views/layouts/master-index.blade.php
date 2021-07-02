@@ -75,8 +75,9 @@
                 <div class="col-lg-3">
                     <div class="sign-header">
                         <ul>
-                            <li><a href="/signup" class="sign-btn">Sign Up</a></li>
-                            <li><a href="/signin" class="sign-btn">Sign In</a></li>
+                            <!-- <li><a href="/signup" class="sign-btn">Sign Up</a></li> -->
+                            <!-- <li><a href="/signin" class="sign-btn">Sign In</a></li> -->
+                            <li><a href="/login" class="sign-btn">Log in ADMIN</a></li>
                         </ul>
                     </div>
                 </div>
