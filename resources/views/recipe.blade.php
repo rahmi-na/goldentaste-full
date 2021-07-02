@@ -236,24 +236,6 @@
                         </div>
                         @endforeach
 
-                        <!-- <div class="col-lg-4 col-md-6 col-sm-6 mix kue">
-                            <div class="product__item">
-                                <div class="product__item__pic set-bg" data-setbg="img/product/cireng.jpg">
-                                </div>
-                                <div class="product__item__text">
-                                    <h6><a href="/cireng">Cireng Bumbu Rujak</a></h6>
-                                </div>
-                            </div>
-                        </div> -->
-                        <!-- <div class="col-lg-4 col-md-6 col-sm-6 mix makanan">
-                            <div class="product__item">
-                                <div class="product__item__pic set-bg" data-setbg="img/product/alpukat.jpg">
-                                </div>
-                                <div class="product__item__text">
-                                    <h6><a href="/alpukat">Es Buah Alpukat Nangka Kelapa Susu</a></h6>
-                                </div>
-                            </div>
-                        </div> -->
                     </div>
                     <div class="product__pagination">
                         <a href="#">1</a>
