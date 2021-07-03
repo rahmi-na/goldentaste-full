@@ -10,8 +10,9 @@
                     <div class="hero__item set-bg" data-setbg="img/hero/banner.jpg">
                         <div class="hero__text">
                             <span>RECIPE</span>
-                            <h2>YOUR <br />FAVORITE <br />RECIPE</h2>
+                            <h2>YOUR <br />FAVORITE <br />FOOD</h2>
                             <p>Practice Makes Perfect</p>
+                            <a href="/recipe" class="site-btn">READ NOW</a>
                         </div>
                     </div>
                 </div>
@@ -19,6 +20,7 @@
         </div>
     </section>
     <!-- Hero Section End -->
+    
 
     <!-- Categories Section Begin -->
     <section class="categories">
@@ -26,23 +28,30 @@
             <div class="row">
                 <div class="categories__slider owl-carousel">
                     <div class="col-lg-3">
-                        <div class="categories__item set-bg" data-setbg="img/categories/cat-1.jpg">
-                            <h5><div class="cate_item">buah-buahan</div></h5>
+                        <div class="categories__item set-bg" data-setbg="img/categories/drinks.jpg">
+                            <h5><a href="#">drinks</a></h5>
                         </div>
                     </div>
                     <div class="col-lg-3">
-                        <div class="categories__item set-bg" data-setbg="img/categories/cat-3.jpg">
-                            <h5><div class="cate_item">sayuran</div></h5>
+                        <div class="categories__item set-bg" data-setbg="img/categories/appe.jpg">
+                            <h5><a href="#">appetizer</a></h5>
                         </div>
                     </div>
                     <div class="col-lg-3">
-                        <div class="categories__item set-bg" data-setbg="img/categories/cat-4.jpg">
-                            <h5><div class="cate_item">minuman</div></h5>
+                        <div class="categories__item set-bg" data-setbg="img/categories/main.jpg">
+                            <h5><a href="#">main course</a></h5>
                         </div>
                     </div>
+
+                    <!-- hmm -->
+                    <!-- <div class="col-lg-3">
+                        <div class="categories__item set-bg" data-setbg="img/categories/cat-5.jpg">
+                            <h5><a href="#">daging</a></h5>
+                        </div>
+                    </div> -->
                     <div class="col-lg-3">
                         <div class="categories__item set-bg" data-setbg="img/categories/dessert.jpg">
-                            <h5><div class="cate_item">dessert</div></h5>
+                            <h5><a href="#">dessert</a></h5>
                         </div>
                     </div>
                 </div>
@@ -62,84 +71,108 @@
                     <div class="featured__controls">
                         <ul>
                             <li class="active" data-filter="*">All</li>
-                            <li data-filter=".main">Main</li>
-                            <li data-filter=".dessert">Dessert</li>
-                            <li data-filter=".appetizer">Appetizer</li>
-                            <li data-filter=".drink">Drink</li>
+                            <li data-filter=".makanan">Makanan Berat</li>
+                            <li data-filter=".kue">Kue</li>
+                            <li data-filter=".jajanan">Jajanan</li>
+                            <li data-filter=".minuman">Minuman</li>
                         </ul>
                     </div>
                 </div>
             </div>
             <div class="row featured__filter">
-                <div class="col-lg-3 col-md-4 col-sm-6 mix main">
+                <div class="col-lg-3 col-md-4 col-sm-6 mix jajanan">
                     <div class="featured__item">
-                        <div class="featured__item__pic set-bg" data-setbg="img/featured/braised.jpg">
+                        <div class="featured__item__pic set-bg" data-setbg="img/featured/cireng.jpg">
                             <ul class="featured__item__pic__hover">
                                 <li><a href="https://wa.widget.web.id/c2c6ff"><i class="fa fa-whatsapp"></i></a></li>
                             </ul>
                         </div>
                         <div class="featured__item__text">
-                            <h6>Braised turbot with smoked roe, Jersey Royals and estuary greens</h6>
+                            <h6><a href="/cireng">Cireng Bumbu Rujak</a></h6>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-4 col-sm-6 mix appetizer">
+                <div class="col-lg-3 col-md-4 col-sm-6 mix kue">
                     <div class="featured__item">
-                        <div class="featured__item__pic set-bg" data-setbg="img/featured/barbecued.jpg">
+                        <div class="featured__item__pic set-bg" data-setbg="img/featured/strawberry.jpg">
                             <ul class="featured__item__pic__hover">
                                 <li><a href="#"><i class="fa fa-whatsapp"></i></a></li>
                             </ul>
                         </div>
                         <div class="featured__item__text">
-                            <h6>Barbecued pizza topped with asparagus, broad beans and fennel</h6>
+                            <h6><a href="/strawberry">Strawberry Cheese Biscoff Dessert Box</a></h6>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-4 col-sm-6 mix drink">
+                <div class="col-lg-3 col-md-4 col-sm-6 mix jajanan">
                     <div class="featured__item">
-                        <div class="featured__item__pic set-bg" data-setbg="img/featured/jalapeno.jpg">
+                        <div class="featured__item__pic set-bg" data-setbg="img/featured/onde.jpg">
                             <ul class="featured__item__pic__hover">
                                 <li><a href="#"><i class="fa fa-whatsapp"></i></a></li>
                             </ul>
                         </div>
                         <div class="featured__item__text">
-                            <h6>Strawberry Jalapeño-infused Mint Julep</h6>
+                            <h6><a href="/ondeOndePelangi">Onde-Onde Pelangi</a></h6>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-4 col-sm-6 mix dessert">
+                <div class="col-lg-3 col-md-4 col-sm-6 mix minuman">
                     <div class="featured__item">
-                        <div class="featured__item__pic set-bg" data-setbg="img/featured/passion.jpg">
+                        <div class="featured__item__pic set-bg" data-setbg="img/featured/dalgona.jpg">
                             <ul class="featured__item__pic__hover">
                                 <li><a href="#"><i class="fa fa-whatsapp"></i></a></li>
                             </ul>
                         </div>
                         <div class="featured__item__text">
-                            <h6>Passion fruit soufflé with white chocolate ice cream</h6>
+                            <h6><a href="/dalgona">Dalgona Coffee</a></h6>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-4 col-sm-6 mix main">
+                <div class="col-lg-3 col-md-4 col-sm-6 mix makanan">
                     <div class="featured__item">
-                        <div class="featured__item__pic set-bg" data-setbg="img/featured/tagliarini.jpg">
+                        <div class="featured__item__pic set-bg" data-setbg="img/featured/soto.jpg">
                             <ul class="featured__item__pic__hover">
                                 <li><a href="#"><i class="fa fa-whatsapp"></i></a></li>
                             </ul>
                         </div>
                         <div class="featured__item__text">
-                            <h6>Tagliarini with slow-cooked tomato sauce</h6>
+                            <h6><a href="/soto">Soto Banjar</a></h6>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-4 col-sm-6 mix dessert">
+                <div class="col-lg-3 col-md-4 col-sm-6 mix kue">
                     <div class="featured__item">
-                        <div class="featured__item__pic set-bg" data-setbg="img/featured/winter.jpg">
+                        <div class="featured__item__pic set-bg" data-setbg="img/featured/salju.jpg">
                             <ul class="featured__item__pic__hover">
                                 <li><a href="#"><i class="fa fa-whatsapp"></i></a></li>
                             </ul>
                         </div>
                         <div class="featured__item__text">
-                            <h6>'Winter is coming' – chocolate, coffee and hazelnut dessert</h6>
+                            <h6><a href="/putriSalju">Putri Salju Keju</a></h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 mix minuman">
+                    <div class="featured__item">
+                        <div class="featured__item__pic set-bg" data-setbg="img/featured/alpukat.jpg">
+                            <ul class="featured__item__pic__hover">
+                                <li><a href="#"><i class="fa fa-whatsapp"></i></a></li>
+                            </ul>
+                        </div>
+                        <div class="featured__item__text">
+                            <h6><a href="/alpukat">Es Buah Alpukat Nangka Kepala Susu</a></h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 mix makanan">
+                    <div class="featured__item">
+                        <div class="featured__item__pic set-bg" data-setbg="img/featured/ayam.jpg">
+                            <ul class="featured__item__pic__hover">
+                                <li><a href="#"><i class="fa fa-whatsapp"></i></a></li>
+                            </ul>
+                        </div>
+                        <div class="featured__item__text">
+                            <h6><a href="/ayamBakarTaliwang">Ayam Bakar Taliwang</a></h6>
                         </div>
                     </div>
                 </div>
@@ -147,5 +180,81 @@
         </div>
     </section>
     <!-- Featured Section End -->
+
+    <!-- Services Start -->
+    <!-- <section class="pricing-card-area section-padding30">
+        <div class="container">
+            
+            <div class="row d-flex justify-content-center">
+                <div class="col-lg-8">
+                    <div class="section-title text-center mb-service-70">
+                        <h2 class="h2-service">Choose Your Plan</h2>
+                        <p class="p-service">Let's choose the package that is best for you and explore it happily and
+                            cheerfully.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row align-items-end">
+                <div class="col-xl-4 col-lg-4 col-md-6">
+                    <div class="single-card-service text-center mb-service-30">
+                        <div class="card-top-service">
+                            <span class="flaticon-chart"></span>
+                            <h4 class="h4-service">Free Plan</h4>
+                        </div>
+                        <div class="card-bottom-service">
+                            <ul class="ul-service">
+                                <li class="li-service"><i class="fa fa-check" id="i-service"></i>akses</li>
+                                <li class="li-service"><i class="fa fa-check" id="i-service"></i>akses</li>
+                                <li class="li-service"><i class="fa fa-check" id="i-service"></i>akses</li>
+                                <li class="li-service"><i class="fa fa-check" id="i-service"></i>akses</li>
+                            </ul>
+                        </div>
+                        <div class="card-buttons-service mt-service-30">
+                            <a href="#" class="btn card-service-btn1">Get Started</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-lg-4 col-md-6">
+                    <div class="single-card-service text-center mb-service-30">
+                        <div class="card-top-service">
+                            <span class="flaticon-chart"></span>
+                            <h4 class="h4-service">Standard Plan</h4>
+                        </div>
+                        <div class="card-bottom-service">
+                            <ul class="ul-service">
+                                <li class="li-service"><i class="fa fa-check" id="i-service"></i>akses</li>
+                                <li class="li-service"><i class="fa fa-check" id="i-service"></i>akses</li>
+                                <li class="li-service"><i class="fa fa-check" id="i-service"></i>akses</li>
+                                <li class="li-service"><i class="fa fa-check" id="i-service"></i>akses</li>
+                            </ul>
+                        </div>
+                        <div class="card-buttons-service mt-service-30">
+                            <a href="#" class="btn card-service-btn1">Get Started</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-lg-4 col-md-6">
+                    <div class="single-card-service text-center mb-service-30">
+                        <div class="card-top-service">
+                            <span class="flaticon-chart"></span>
+                            <h4 class="h4-service">Premium Plan</h4>
+                        </div>
+                        <div class="card-bottom-service">
+                            <ul class="ul-service">
+                                <li class="li-service"><i class="fa fa-check" id="i-service"></i>akses</li>
+                                <li class="li-service"><i class="fa fa-check" id="i-service"></i>akses</li>
+                                <li class="li-service"><i class="fa fa-check" id="i-service"></i>akses</li>
+                                <li class="li-service"><i class="fa fa-check" id="i-service"></i>akses</li>
+                            </ul>
+                        </div>
+                        <div class="card-buttons-service mt-service-30">
+                            <a href="#" class="btn card-service-btn1">Get Started</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> -->
+    <!-- Services Card End -->
     @endsection
   
