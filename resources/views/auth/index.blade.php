@@ -26,6 +26,8 @@
 <body>
     <div class="main">
         <!-- Sing in  Form -->
+        
+        <meta name="csrf-token" content="{{ csrf_token() }}">
         <section class="sign-in">
             <div class="container-sign">
 
