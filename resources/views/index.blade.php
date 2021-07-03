@@ -29,21 +29,19 @@
                 <div class="categories__slider owl-carousel">
                     <div class="col-lg-3">
                         <div class="categories__item set-bg" data-setbg="img/categories/drinks.jpg">
-                            <h5><a href="#">drinks</a></h5>
+                        <h5><div class="cate_item">drinks<div></h5>
                         </div>
                     </div>
                     <div class="col-lg-3">
                         <div class="categories__item set-bg" data-setbg="img/categories/appe.jpg">
-                            <h5><a href="#">appetizer</a></h5>
+                        <h5><div class="cate_item">appetizer<div></h5>
                         </div>
                     </div>
                     <div class="col-lg-3">
                         <div class="categories__item set-bg" data-setbg="img/categories/main.jpg">
-                            <h5><a href="#">main course</a></h5>
+                        <h5><div class="cate_item">main course<div></h5>
                         </div>
                     </div>
-
-                    <!-- hmm -->
                     <!-- <div class="col-lg-3">
                         <div class="categories__item set-bg" data-setbg="img/categories/cat-5.jpg">
                             <h5><a href="#">daging</a></h5>
@@ -51,7 +49,7 @@
                     </div> -->
                     <div class="col-lg-3">
                         <div class="categories__item set-bg" data-setbg="img/categories/dessert.jpg">
-                            <h5><a href="#">dessert</a></h5>
+                            <h5><div class="cate_item">dessert<div></h5>
                         </div>
                     </div>
                 </div>

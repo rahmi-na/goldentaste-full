@@ -33,7 +33,6 @@
             <div class="row">
                 <div class="col-lg-9 col-md-7">
                     <div class="filter__item">
-<<<<<<< HEAD
                         <div class="row">
                         
                             <div class="col-lg-4 col-md-5">
@@ -63,11 +62,9 @@
                             </div> -->
 
                         </div>
-=======
                     </div> 
                     <div class="row">
                         <div class="row"></div>
->>>>>>> ef08926f0aeb6c16d8b0e57ee025819f5c8c1b6a
                     </div>
                     <div class="row">
 
