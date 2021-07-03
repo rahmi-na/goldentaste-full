@@ -1907,7 +1907,7 @@ ol {
 }
 
 .footer__widget {
-    margin-bottom: 30px;
+    margin-bottom: -20px;
     overflow: hidden;
 }
 
