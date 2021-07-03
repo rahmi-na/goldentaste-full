@@ -33,9 +33,41 @@
             <div class="row">
                 <div class="col-lg-9 col-md-7">
                     <div class="filter__item">
+<<<<<<< HEAD
+                        <div class="row">
+                        
+                            <div class="col-lg-4 col-md-5">
+                                <div class="filter__sort">
+                                    <span>Sort By</span>
+                                    <select size="1" name="food">
+                                        <!-- <option class="active" data-filter="*" value="1">All</option> -->
+                                        <option value="makanan">Makanan Berat</option>
+                                        <option value="kue">Kue</option>
+                                        <option value="jajanan">Jajanan</option>
+                                        <option value="minuman">Minuman</option>
+                                    </select>
+                                </div>
+                            </div>
+
+                            <!-- <div class="col-lg-4 col-md-4">
+                                <div class="filter__found">
+                                    <h6><span>12</span> Recipes found</h6>
+                                </div>
+                            </div> -->
+
+                            <!-- <div class="col-lg-4 col-md-3">
+                                <div class="filter__option">
+                                    <button class="icon_grid-2x2" onclick="listView()" id="btnContainer"></button>
+                                    <button class="icon_ul" onclick="gridView()" id="btnContainer"></button>
+                                </div>
+                            </div> -->
+
+                        </div>
+=======
                     </div> 
                     <div class="row">
                         <div class="row"></div>
+>>>>>>> ef08926f0aeb6c16d8b0e57ee025819f5c8c1b6a
                     </div>
                     <div class="row">
 
