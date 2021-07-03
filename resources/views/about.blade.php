@@ -2,29 +2,6 @@
 @section('title', 'About Us')
 @section('content-about')
 
-    <!-- Hero Section Begin -->
-    <!-- <section class="hero hero-normal">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-9">
-                    <div class="hero__search">
-                        <div class="hero__search__form">
-                            <form action="#">
-                                <div class="hero__search__categories">
-                                    All Categories
-                                    <span class="arrow_carrot-down"></span>
-                                </div>
-                                <input type="text" placeholder="What do yo u need?">
-                                <button type="submit" class="site-btn">SEARCH</button>
-                            </form>
-                        </div>
-                    </div>
-                </div>
-            </div>     
-        </div>
-    </section> -->
-    <!-- Hero Section End -->
-
     <!-- Breadcrumb Section Begin -->
     <section class="breadcrumb-section set-bg" data-setbg="img/breadcrumb.jpg">
         <div class="container">
@@ -33,7 +10,7 @@
                     <div class="breadcrumb__text">
                         <h2>About Us</h2>
                         <div class="breadcrumb__option">
-                            <a href="/about">About</a>
+                            <a href="/">Home</a>
                             <span>About Us</span>
                         </div>
                     </div>
@@ -47,8 +24,7 @@
     <div class="rw jcc mb-team-6 circle-blend circle-warning">
         <div class="col-lg-6 text-center mx-auto mb-7">
             <h5 class="fw-bold fs-3 fs-lg-5 lh-sm mb-3">Our Team</h5>
-            <p class="mb-0">ini adalah nama anggota yang mengerjakan website sebagai tugas dari UAS Pemrograman Web<span
-                    class="fw-bold"></span></p>
+            <p class="mb-0">ini adalah nama anggota yang mengerjakan website sebagai tugas dari UAS Pemrograman Web<span class="fw-bold"></span></p>
         </div>
         <div class="col-xxl-9">
             <div class="row flex-center g-0">

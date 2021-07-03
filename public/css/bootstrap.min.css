@@ -655,8 +655,8 @@ pre code {
     display: flex;
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
-    margin-right: -22px;
-    margin-left: -22px
+    margin-right: -34px;
+    margin-left: -34px
 }
 
 .no-gutters {
@@ -8461,7 +8461,7 @@ button.bg-dark:hover {
 
 .mb-0,
 .my-0 {
-    margin-bottom: 0 !important
+    margin-bottom: -24px !important
 }
 
 .ml-0,

@@ -36,10 +36,6 @@ use App\Http\Controllers\PostController;
 
 Route::get('/', [HomeController::class, 'index'])->name('index');
 
-// Route::get('/recipe', function () {
-//     return view('recipe');
-// });
-
 Route::get('/recipe', [RecipeController::class, 'index'])->name('recipe');
 
 Route::get('/blog', function () {
