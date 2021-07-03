@@ -62,17 +62,20 @@
                                     </select>
                                 </div>
                             </div>
-                            <div class="col-lg-4 col-md-4">
+
+                            <!-- <div class="col-lg-4 col-md-4">
                                 <div class="filter__found">
                                     <h6><span>12</span> Recipes found</h6>
                                 </div>
-                            </div>
-                            <div class="col-lg-4 col-md-3">
+                            </div> -->
+
+                            <!-- <div class="col-lg-4 col-md-3">
                                 <div class="filter__option">
                                     <button class="icon_grid-2x2" onclick="listView()" id="btnContainer"></button>
                                     <button class="icon_ul" onclick="gridView()" id="btnContainer"></button>
                                 </div>
-                            </div>
+                            </div> -->
+
                         </div>
                     </div>
                     <div class="row">
