@@ -42,6 +42,8 @@
                             <h5><a href="#">main course</a></h5>
                         </div>
                     </div>
+
+                    <!-- hmm -->
                     <!-- <div class="col-lg-3">
                         <div class="categories__item set-bg" data-setbg="img/categories/cat-5.jpg">
                             <h5><a href="#">daging</a></h5>
