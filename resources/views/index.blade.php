@@ -28,23 +28,28 @@
             <div class="row">
                 <div class="categories__slider owl-carousel">
                     <div class="col-lg-3">
-                        <div class="categories__item set-bg" data-setbg="img/categories/cat-1.jpg">
-                            <h5><a href="#">buah-buahan</a></h5>
+                        <div class="categories__item set-bg" data-setbg="img/categories/drinks.jpg">
+                            <h5><a href="#">drinks</a></h5>
                         </div>
                     </div>
                     <div class="col-lg-3">
-                        <div class="categories__item set-bg" data-setbg="img/categories/cat-3.jpg">
-                            <h5><a href="#">sayuran</a></h5>
+                        <div class="categories__item set-bg" data-setbg="img/categories/appe.jpg">
+                            <h5><a href="#">appetizer</a></h5>
                         </div>
                     </div>
                     <div class="col-lg-3">
-                        <div class="categories__item set-bg" data-setbg="img/categories/cat-4.jpg">
-                            <h5><a href="#">minuman</a></h5>
+                        <div class="categories__item set-bg" data-setbg="img/categories/main.jpg">
+                            <h5><a href="#">main course</a></h5>
                         </div>
                     </div>
-                    <div class="col-lg-3">
+                    <!-- <div class="col-lg-3">
                         <div class="categories__item set-bg" data-setbg="img/categories/cat-5.jpg">
                             <h5><a href="#">daging</a></h5>
+                        </div>
+                    </div> -->
+                    <div class="col-lg-3">
+                        <div class="categories__item set-bg" data-setbg="img/categories/dessert.jpg">
+                            <h5><a href="#">dessert</a></h5>
                         </div>
                     </div>
                 </div>
