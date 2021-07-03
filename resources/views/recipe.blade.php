@@ -76,8 +76,8 @@
                         </div>
                     </div>
                     <div class="row">
-                        <div class="col-lg-4 col-md-6 col-sm-6 mix kue">
-                            <div class="product__item">
+                        <!-- <div class="col-lg-4 col-md-6 col-sm-6 mix kue"> -->
+                            <!-- <div class="product__item">
                                 <div class="product__item__pic set-bg" data-setbg="img/product/ayam.jpg">
                                 </div>
                                 <div class="product__item__text">
@@ -103,8 +103,10 @@
                                     <button class="custom-btn btn-11" href="#"><i class="fa fa-whatsapp"> Get the Recipe</i></button>
                                 </div>
                             </div>
-                        </div>
-                        <div class="col-lg-4 col-md-6 col-sm-6 mix kue">
+                        </div> -->
+
+
+                        <!-- <div class="col-lg-4 col-md-6 col-sm-6 mix kue">
                             <div class="product__item">
                                 <div class="product__item__pic set-bg" data-setbg="img/product/ayam.jpg">
                                 </div>
@@ -129,8 +131,10 @@
                                     <button class="custom-btn btn-11" href="#"><i class="fa fa-whatsapp"> Get the Recipe</i></button>
                                 </div>
                             </div>
-                        </div>
-                        <div class="col-lg-4 col-md-6 col-sm-6 mix kue">
+                        </div> -->
+
+
+                        <!-- <div class="col-lg-4 col-md-6 col-sm-6 mix kue">
                             <div class="product__item">
                                 <div class="product__item__pic set-bg" data-setbg="img/product/ayam.jpg">
                                 </div>
@@ -156,8 +160,10 @@
                                     <button class="custom-btn btn-11" href="#"><i class="fa fa-whatsapp"> Get the Recipe</i></button>
                                 </div>
                             </div>
-                        </div>
-                        <div class="col-lg-4 col-md-6 col-sm-6 mix kue">
+                        </div> -->
+
+
+                        <!-- <div class="col-lg-4 col-md-6 col-sm-6 mix kue">
                             <div class="product__item">
                                 <div class="product__item__pic set-bg" data-setbg="img/product/ayam.jpg"> 
                                 </div>
@@ -181,8 +187,10 @@
                                     <button class="custom-btn btn-11" href="#"><i class="fa fa-whatsapp"> Get the Recipe</i></button>
                                 </div>
                             </div>
-                        </div>
-                        <div class="col-lg-4 col-md-6 col-sm-6 mix kue">
+                        </div> -->
+
+
+                        <!-- <div class="col-lg-4 col-md-6 col-sm-6 mix kue">
                             <div class="product__item">
                                 <div class="product__item__pic set-bg" data-setbg="img/product/ayam.jpg">
                                 </div>
@@ -206,7 +214,7 @@
                                     <button class="custom-btn btn-11" href="#"><i class="fa fa-whatsapp"> Get the Recipe</i></button>
                                 </div>
                             </div>
-                        </div>
+                        </div> -->
 
                         @foreach($data as $recipes)
                         <div class="col-lg-4 col-md-6 col-sm-6 mix kue">
@@ -237,12 +245,14 @@
                         @endforeach
 
                     </div>
-                    <div class="product__pagination">
+
+                    <!-- <div class="product__pagination">
                         <a href="#">1</a>
                         <a href="#">2</a>
                         <a href="#">3</a>
                         <a href="#"><i class="fa fa-long-arrow-right"></i></a>
-                    </div>
+                    </div> -->
+
                 </div>
             </div>
         </div>
