@@ -35,6 +35,9 @@
                     <div class="filter__item">
                     </div> 
                     <div class="row">
+                        <div class="row"></div>
+                    </div>
+                    <div class="row">
 
                         @foreach($data as $recipes)
                         <div class="col-lg-4 col-md-6 col-sm-6 mix kue">

@@ -42,8 +42,8 @@
                         </div>
                     </div>
                     <div class="col-lg-3">
-                        <div class="categories__item set-bg" data-setbg="img/categories/cat-5.jpg">
-                            <h5><div class="cate_item">daging</div></h5>
+                        <div class="categories__item set-bg" data-setbg="img/categories/dessert.jpg">
+                            <h5><div class="cate_item">dessert</div></h5>
                         </div>
                     </div>
                 </div>
