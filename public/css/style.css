@@ -1039,7 +1039,7 @@ ol {
     margin-bottom: 12px;
 }
 
-.blog__item__text h5 a {
+.blog__item__text .blog_title {
     font-size: 20px;
     color: #1c1c1c;
     font-weight: 700;
@@ -1907,7 +1907,7 @@ ol {
 }
 
 .footer__widget {
-    margin-bottom: 30px;
+    margin-bottom: -20px;
     overflow: hidden;
 }
 
@@ -3487,6 +3487,10 @@ textarea {
     transition: all 0.3s ease;
     position: relative;
     display: inline-block;
+}
+
+.wawa {
+    color: #7fad39;
 }
 
 .desc {

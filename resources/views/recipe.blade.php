@@ -89,7 +89,7 @@
                                         <p>{{ $recipes->description}}
                                         </p>
                                     </div>
-                                    <button class="custom-btn btn-11" href="#"><i class="fa fa-whatsapp"> Get the Recipe</i></button>
+                                    <button class="custom-btn btn-11"><a href="https://wa.widget.web.id/5d259f" target="_blank" rel="noopener"` class="wawa"><i class="fa fa-whatsapp"> Get the Recipe</i></a></button>
                                 </div>
                             </div>
                         </div>
