@@ -2,14 +2,14 @@
 
 namespace Database\Seeders;
 
-use App\Models\User;
+use App\Models\Admins;
 use Illuminate\Database\Seeder;
 
 class Databasegd extends Seeder
 {
     public function run()
     {
-        $users = [
+        $admins = [
             [
                 'id'             => 1,
                 'name'           => 'Admin',
@@ -24,6 +24,6 @@ class Databasegd extends Seeder
             ],
         ];
 
-        User::insert($users);
+        Admins::insert($admins);
     }
 }
