@@ -29,7 +29,7 @@
                         <div class="blog__sidebar__item">
                             <h4>Recent News</h4>
                             <div class="blog__sidebar__recent">
-                                <a href="#" class="blog__sidebar__recent__item">
+                                <div class="blog__sidebar__recent__item">
                                     <div class="blog__sidebar__recent__item__pic">
                                         <img src="img/blog/sidebar/sr-1.jpg" alt="">
                                     </div>
@@ -37,8 +37,8 @@
                                         <h6>Manfaat berry<br /> pada tubuh</h6>
                                         <span>MAR 05, 2021</span>
                                     </div>
-                                </a>
-                                <a href="#" class="blog__sidebar__recent__item">
+                                </div>
+                                <div class="blog__sidebar__recent__item">
                                     <div class="blog__sidebar__recent__item__pic">
                                         <img src="img/blog/sidebar/sr-2.jpg" alt="">
                                     </div>
@@ -46,8 +46,8 @@
                                         <h6>Tips menyimpan sayuran<br /> sayuran sehat</h6>
                                         <span>MAR 08, 2020</span>
                                     </div>
-                                </a>
-                                <a href="#" class="blog__sidebar__recent__item">
+                                </div>
+                                <div class="blog__sidebar__recent__item">
                                     <div class="blog__sidebar__recent__item__pic">
                                         <img src="img/blog/sidebar/sr-3.jpg" alt="">
                                     </div>
@@ -55,7 +55,7 @@
                                         <h6>Manfaat jus <br /> pada kesehatan </h6>
                                         <span>MAR 03, 2021</span>
                                     </div>
-                                </a>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -72,9 +72,9 @@
                                         <li><i class="fa fa-calendar-o"></i> May 9,2019</li>
                                         <li><i class="fa fa-comment-o"></i> 5</li>
                                     </ul>
-                                    <h5><a href="#">TIPS MEMASAK DAGING</a></h5>
+                                    <h5 class="blog_title">TIPS MEMASAK DAGING</h5>
                                     <p>Tips memasak daging agar cepat empuk </p>
-                                    <a href="#" class="blog__btn">READ MORE <span class="arrow_right"></span></a>
+                                    <div class="blog__btn">READ MORE <span class="arrow_right"></span></div>
                                 </div>
                             </div>
                         </div>
@@ -88,9 +88,9 @@
                                         <li><i class="fa fa-calendar-o"></i> May 4,2019</li>
                                         <li><i class="fa fa-comment-o"></i> 5</li>
                                     </ul>
-                                    <h5><a href="#">Hidup Sehat</a></h5>
+                                    <h5 class="blog_title">Hidup Sehat</h5>
                                     <p>Dengan berolahraga dan konsumsi makanan sehat</p>
-                                    <a href="#" class="blog__btn">READ MORE <span class="arrow_right"></span></a>
+                                    <div class="blog__btn">READ MORE <span class="arrow_right"></span></div>
                                 </div>
                             </div>
                         </div>
@@ -104,9 +104,9 @@
                                         <li><i class="fa fa-calendar-o"></i> May 4,2019</li>
                                         <li><i class="fa fa-comment-o"></i> 5</li>
                                     </ul>
-                                    <h5><a href="#">Rekomendasi Alat Dapur</a></h5>
+                                    <h5 class="blog_title">Rekomendasi Alat Dapur</h5>
                                     <p>Berbagai rekomendasi merk dan brand peralatan masak...</p>
-                                    <a href="#" class="blog__btn">READ MORE <span class="arrow_right"></span></a>
+                                    <div class="blog__btn">READ MORE <span class="arrow_right"></span></div>
                                 </div>
                             </div>
                         </div>
@@ -120,9 +120,9 @@
                                         <li><i class="fa fa-calendar-o"></i> May 2,2019</li>
                                         <li><i class="fa fa-comment-o"></i> 5</li>
                                     </ul>
-                                    <h5><a href="#">Lifestyle</a></h5>
+                                    <h5 class="blog_title">Lifestyle</h5>
                                     <p>Gaya hidup seputar food kuliner dan tips gaya hidup sehat...</p>
-                                    <a href="#" class="blog__btn">READ MORE <span class="arrow_right"></span></a>
+                                    <div class="blog__btn">READ MORE <span class="arrow_right"></span></div>
                                 </div>
                             </div>
                         </div>
