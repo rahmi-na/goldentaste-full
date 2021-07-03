@@ -19,7 +19,6 @@
         </div>
     </section>
     <!-- Hero Section End -->
-    
 
     <!-- Categories Section Begin -->
     <section class="categories">
