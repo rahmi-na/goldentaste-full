@@ -27,7 +27,7 @@
     <div class="main">
         <!-- Sing in  Form -->
         
-        <meta name="csrf-token" content="{{ csrf_token() }}">
+        <!-- <meta name="csrf-token" content="{{ csrf_token() }}"> -->
         <section class="sign-in">
             <div class="container-sign">
 
@@ -40,6 +40,7 @@
                     <div class="signin-form">
                         <h2 class="form-title">Sign In</h2>
                         <br>
+                        
                         <form method="POST" action="{{route('auth.login')}}">
                             @csrf
                             <div class="form-group">
