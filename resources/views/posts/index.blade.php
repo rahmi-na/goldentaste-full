@@ -59,14 +59,6 @@
                     <td>{{ $result->cook_time }}</td>
                     <td>{{ $result->description }}</td>
                     <td>
-                        <!-- <a href="" class="btn btn-warning btn-sm">Edit</a>
-                        <form method="POST" action="">
-                            @method('DELETE')
-                            @csrf
-                            <button type="submit" class="btn btn-danger btn-sm">Delete</button>
-                        </form> -->
-
-                    
                         <form method="POST" action="{{ route('posts.destroy', $result->id) }}">
                             @method('DELETE')
                             @csrf

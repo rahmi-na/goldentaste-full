@@ -62,7 +62,7 @@ class PostController extends Controller
         ]);
 
         $photo->move('public/uploads/posts/', $new_photo);
-        return redirect()->back()->with('success', 'Postingan anda berhasil disimpan');
+        return redirect()->back()->with('success', 'Data berhasil disimpan disimpan');
     }
 
     /**
@@ -132,10 +132,9 @@ class PostController extends Controller
                 'description' => $request->description,
             ];
         }
-
-        // $posts->update($posts_data);
+        
         Posts::whereId($id)->update($posts);
-        return redirect()->route('posts.index')->with('success', 'Postingan anda berhasil diupdate');
+        return redirect()->route('posts.index')->with('success', 'Data berhasil diubah');
     }
 
     /**

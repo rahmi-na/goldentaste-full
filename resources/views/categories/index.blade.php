@@ -35,7 +35,6 @@
         <div class="text-center">
             <h1 class="text-bold">Category</h1>
         </div>
-    <!-- <table class="table table-striped table-hover table-sm table-bordered"> -->
             <thead>
                 <th>No</th>
                 <th>Category</th>
@@ -47,14 +46,6 @@
                     <td>{{ $loop->iteration }}</td>
                     <td>{{ $result->name }}</td>
                     <td>
-                        <!-- <a href="" class="btn btn-warning btn-sm">Edit</a>
-                        <form method="POST" action="">
-                            @method('DELETE')
-                            @csrf
-                            <button type="submit" class="btn btn-danger btn-sm">Delete</button>
-                        </form> -->
-
-                    
                         <form method="POST" action="{{ route('categories.destroy', $result->id) }}">
                             @method('DELETE')
                             @csrf

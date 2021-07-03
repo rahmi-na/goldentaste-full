@@ -81,7 +81,7 @@
                         <li class="nav-item">
                             <a href="{{ route('authors.index') }}"
                                 class="nav-link {{Request::is('authors') ? 'active' : ''}}">
-                                <i class="nav-icon fas fa-box-open"></i>
+                                <i class="nav-icon fas fa-users"></i>
                                 <p>
                                     Admin
                                 </p>
@@ -90,7 +90,7 @@
                         <li class="nav-item">
                             <a href="{{ route('categories.index') }}"
                                 class="nav-link {{Request::is('categories') ? 'active' : ''}}">
-                                <i class="nav-icon fas fa-shopping-basket"></i>
+                                <i class="nav-icon fas fa-list-alt"></i>
                                 <p>
                                     Category
                                 </p>
@@ -99,7 +99,7 @@
                         <li class="nav-item">
                             <a href="{{ route('posts.index') }}"
                                 class="nav-link {{Request::is('posts') ? 'active' : ''}}">
-                                <i class="nav-icon fas fa-shopping-basket"></i>
+                                <i class="nav-icon fas fa-concierge-bell"></i>
                                 <p>
                                     Recipe
                                 </p>
@@ -108,7 +108,7 @@
                         <li class="nav-item">
                             <a href="{{ route('messages.index') }}"
                                 class="nav-link {{Request::is('messages') ? 'active' : ''}}">
-                                <i class="nav-icon fas fa-shopping-basket"></i>
+                                <i class="nav-icon fas fa-envelope"></i>
                                 <p>
                                     Message
                                 </p>

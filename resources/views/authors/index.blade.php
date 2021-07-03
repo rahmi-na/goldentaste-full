@@ -19,6 +19,14 @@
     </div><!-- /.container-fluid -->
 </div>
 
+@if(Session::has('success'))
+<div style="padding: 2%">
+    <div class="alert alert-success" role="alert">
+        {{ Session('success') }}
+    </div>
+</div>
+@endif
+
 <div class="container-table" style="padding: 2%">
     <table class="table">
         <div class="text-center">
@@ -40,11 +48,11 @@
                 <td>{{$hasil->username}}</td>
                 <td>{{$hasil->password}}</td>
                 <td>
-                    <a href="{{route('authors.edit', $hasil->id)}}" class="btn btn-warning">Edit</a>
                     <form method="POST" action="{{ route('authors.destroy', [$hasil->id]) }}">
                         @method('DELETE')
                         @csrf
-                        <button type="submit" class="btn btn-danger">Delete</button>
+                        <a href="{{route('authors.edit', $hasil->id)}}" class="btn btn-warning btn-sm">Edit</a>
+                        <button type="submit" class="btn btn-danger btn-sm">Delete</button>
                     </form>
                 </td>
             </tr>
@@ -54,13 +62,13 @@
 </div>
 
 <!-- /.content-header -->
-<div class="container mt-5">
+<!-- <div class="container mt-5">
     @if (session('success'))
     <div class="alert alert-success" role="alert">
         {{session('success')}}
     </div>
     @endif
-</div>
+</div> -->
 {{ $admin->links() }}
 
 @endsection

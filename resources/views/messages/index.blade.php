@@ -19,6 +19,14 @@
     </div><!-- /.container-fluid -->
 </div>
 
+@if(Session::has('success'))
+<div style="padding: 2%">
+    <div class="alert alert-success" role="alert">
+        {{ Session('success') }}
+    </div>
+</div>
+@endif
+
 <div class="container-table" style="padding: 2%">
     <table class="table">
         <div class="text-center">
@@ -39,13 +47,12 @@
                 <td>{{$data->email}}</td>
                 <td>{{$data->message}}</td>
                 <td>
-                    <a href="{{route('messages.edit', $data->id)}}" class="btn btn-warning">Edit</a>
                     <form method="POST" action="{{ route('messages.destroy', [$data->id]) }}">
                         @method('DELETE')
                         @csrf
-                        <button type="submit" class="btn btn-danger">Delete</button>
+                        <a href="{{route('messages.edit', $data->id)}}" class="btn btn-warning btn-sm">Edit</a>
+                        <button type="submit" class="btn btn-danger btn-sm">Delete</button>
                     </form>
-
                 </td>
             </tr>
             @endforeach
@@ -53,13 +60,5 @@
     </table>
 </div>
 
-<!-- /.content-header -->
-<div class="container mt-5">
-    @if (session('success'))
-    <div class="alert alert-success" role="alert">
-        {{session('success')}}
-    </div>
-    @endif
-</div>
 
 @endsection

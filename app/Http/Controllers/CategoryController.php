@@ -37,22 +37,12 @@ class CategoryController extends Controller
      */
     public function store(Request $request)
     {
-        // $categories-> Categories::create([
-        //     'name'=>$request->name,
-        //     'slug'=> Str::slug($request->name)
-        // ]);
-        // Categories::create($categories->all());
-        // return redirect()->back();
-        // $this->validate($request, [
-        //     'name' => 're'
-        // ])
-
         $request->validate([
             'name'=>'required',
             'slug'=> Str::slug($request->name),
         ]);
         Categories::create($request->all());
-        return redirect()->back()->with('success', 'Data berhasil disimpan');
+        return redirect()->route('categories.index')->with('success', 'Data berhasil disimpan');
 
     }
 
