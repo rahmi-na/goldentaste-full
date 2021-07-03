@@ -26,18 +26,18 @@
             <div class="row">
                 <div class="categories__slider owl-carousel">
                     <div class="col-lg-3">
-                        <div class="categories__item set-bg" data-setbg="img/categories/cat-1.jpg">
-                            <h5><div class="cate_item">buah-buahan</div></h5>
+                        <div class="categories__item set-bg" data-setbg="img/categories/appe.jpg">
+                            <h5><div class="cate_item">appetizer</div></h5>
                         </div>
                     </div>
                     <div class="col-lg-3">
-                        <div class="categories__item set-bg" data-setbg="img/categories/cat-3.jpg">
-                            <h5><div class="cate_item">sayuran</div></h5>
+                        <div class="categories__item set-bg" data-setbg="img/categories/main.jpg">
+                            <h5><div class="cate_item">main course</div></h5>
                         </div>
                     </div>
                     <div class="col-lg-3">
-                        <div class="categories__item set-bg" data-setbg="img/categories/cat-4.jpg">
-                            <h5><div class="cate_item">minuman</div></h5>
+                        <div class="categories__item set-bg" data-setbg="img/categories/drinks.jpg">
+                            <h5><div class="cate_item">drink</div></h5>
                         </div>
                     </div>
                     <div class="col-lg-3">
