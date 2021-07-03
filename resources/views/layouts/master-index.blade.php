@@ -72,14 +72,6 @@
                         </ul>
                     </nav>
                 </div>
-                <div class="col-lg-3">
-                    <div class="sign-header">
-                        <ul>
-                            <li><a href="/signup" class="sign-btn">Sign Up</a></li>
-                            <li><a href="/signin" class="sign-btn">Sign In</a></li>
-                        </ul>
-                    </div>
-                </div>
             </div>
             <div class="humberger__open">
                 <i class="fa fa-bars"></i>
@@ -175,12 +167,6 @@
 
 <!--End mc_embed_signup-->
                         </form>
-                        <!-- <div class="footer__widget__social">
-                            <a href="#"><i class="fa fa-facebook"></i></a>
-                            <a href="#"><i class="fa fa-instagram"></i></a>
-                            <a href="#"><i class="fa fa-twitter"></i></a>
-                            <a href="#"><i class="fa fa-pinterest"></i></a>
-                        </div> -->
                     </div>
                 </div>
             </div>
@@ -213,4 +199,4 @@
     @stack('script')
     
 </body>
-</html>
+<!-- </html> -->

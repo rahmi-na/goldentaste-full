@@ -10,7 +10,7 @@
             </div><!-- /.col -->
             <div class="col-sm-6">
                 <ol class="breadcrumb float-sm-right">
-                    <li class="breadcrumb-item"><a href="#">Home</a></li>
+                    <li class="breadcrumb-item"><a href="{{ route('dashboard.index') }}">Home</a></li>
                     <li class="breadcrumb-item active">Dashboard v1</li>
                 </ol>
             </div><!-- /.col -->
@@ -32,23 +32,9 @@
                         <p>Admin</p>
                     </div>
                     <div class="icon">
-                        <i class="ion ion-bag"></i>
+                        <i class="ion ion-person"></i>
                     </div>
                     <a href="{{ route('authors.index') }}" class="small-box-footer">More info <i class="fas fa-arrow-circle-right"></i></a>
-                </div>
-            </div>
-            <!-- ./col -->
-            <div class="col-lg-3 col-6">
-                <!-- small box -->
-                <div class="small-box bg-success">
-                    <div class="inner">
-                        <h3>Message<sup style="font-size: 20px">%</sup></h3>
-                        <p>Message</p>
-                    </div>
-                    <div class="icon">
-                        <i class="ion ion-stats-bars"></i>
-                    </div>
-                    <a href="{{ route('messages.index') }}" class="small-box-footer">More info <i class="fas fa-arrow-circle-right"></i></a>
                 </div>
             </div>
             <!-- ./col -->
@@ -57,10 +43,10 @@
                 <div class="small-box bg-danger">
                     <div class="inner">
                         <h3>Category</h3>
-                        <p> </p>
+                        <p>Category </p>
                     </div>
                     <div class="icon">
-                        <i class="ion ion-pie-graph"></i>
+                        <i class="ion ion-folder"></i>
                     </div>
                     <a href="{{ route('categories.index') }}" class="small-box-footer">More info <i class="fas fa-arrow-circle-right"></i></a>
                 </div>
@@ -71,11 +57,26 @@
                 <div class="small-box bg-warning">
                     <div class="inner">
                         <h3>Recipe</h3>
+                        <p>Recipe </p>
                     </div>
                     <div class="icon">
-                        <i class="ion ion-person-add"></i>
+                        <i class="ion ion-folder"></i>
                     </div>
                     <a href="{{ route('posts.index') }}" class="small-box-footer">More info <i class="fas fa-arrow-circle-right"></i></a>
+                </div>
+            </div>
+            <!-- ./col -->
+            <div class="col-lg-3 col-6">
+                <!-- small box -->
+                <div class="small-box bg-success">
+                    <div class="inner">
+                        <h3>Message<sup style="font-size: 20px"></sup></h3>
+                        <p>Message</p>
+                    </div>
+                    <div class="icon">
+                        <i class="ion ion-email"></i>
+                    </div>
+                    <a href="{{ route('messages.index') }}" class="small-box-footer">More info <i class="fas fa-arrow-circle-right"></i></a>
                 </div>
             </div>
         </div>
