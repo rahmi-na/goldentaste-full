@@ -75,7 +75,7 @@
                     <div class="featured__item">
                         <div class="featured__item__pic set-bg" data-setbg="img/featured/braised.jpg">
                             <ul class="featured__item__pic__hover">
-                                <li><a href="https://wa.widget.web.id/c2c6ff"><i class="fa fa-whatsapp"></i></a></li>
+                                <li><a href="https://wa.widget.web.id/5d259f" target="_blank"><i class="fa fa-whatsapp"></i></a></li>
                             </ul>
                         </div>
                         <div class="featured__item__text">
@@ -87,7 +87,7 @@
                     <div class="featured__item">
                         <div class="featured__item__pic set-bg" data-setbg="img/featured/barbecued.jpg">
                             <ul class="featured__item__pic__hover">
-                                <li><a href="#"><i class="fa fa-whatsapp"></i></a></li>
+                                <li><a href="https://wa.widget.web.id/5d259f" target="_blank"><i class="fa fa-whatsapp"></i></a></li>
                             </ul>
                         </div>
                         <div class="featured__item__text">
@@ -99,7 +99,7 @@
                     <div class="featured__item">
                         <div class="featured__item__pic set-bg" data-setbg="img/featured/jalapeno.jpg">
                             <ul class="featured__item__pic__hover">
-                                <li><a href="#"><i class="fa fa-whatsapp"></i></a></li>
+                                <li><a href="https://wa.widget.web.id/5d259f" target="_blank"><i class="fa fa-whatsapp"></i></a></li>
                             </ul>
                         </div>
                         <div class="featured__item__text">
@@ -111,7 +111,7 @@
                     <div class="featured__item">
                         <div class="featured__item__pic set-bg" data-setbg="img/featured/passion.jpg">
                             <ul class="featured__item__pic__hover">
-                                <li><a href="#"><i class="fa fa-whatsapp"></i></a></li>
+                                <li><a href="https://wa.widget.web.id/5d259f" target="_blank"><i class="fa fa-whatsapp"></i></a></li>
                             </ul>
                         </div>
                         <div class="featured__item__text">
@@ -123,7 +123,7 @@
                     <div class="featured__item">
                         <div class="featured__item__pic set-bg" data-setbg="img/featured/tagliarini.jpg">
                             <ul class="featured__item__pic__hover">
-                                <li><a href="#"><i class="fa fa-whatsapp"></i></a></li>
+                                <li><a href="https://wa.widget.web.id/5d259f" target="_blank"><i class="fa fa-whatsapp"></i></a></li>
                             </ul>
                         </div>
                         <div class="featured__item__text">
@@ -135,7 +135,7 @@
                     <div class="featured__item">
                         <div class="featured__item__pic set-bg" data-setbg="img/featured/winter.jpg">
                             <ul class="featured__item__pic__hover">
-                                <li><a href="#"><i class="fa fa-whatsapp"></i></a></li>
+                                <li><a href="https://wa.widget.web.id/5d259f" target="_blank"><i class="fa fa-whatsapp"></i></a></li>
                             </ul>
                         </div>
                         <div class="featured__item__text">

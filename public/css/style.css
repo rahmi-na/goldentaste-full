@@ -3489,6 +3489,10 @@ textarea {
     display: inline-block;
 }
 
+.wawa {
+    color: #7fad39;
+}
+
 .desc {
     text-align: justify;
 }
