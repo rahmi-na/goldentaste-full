@@ -9,9 +9,10 @@ use Illuminate\Foundation\Auth\User as Authenticatable;
 class Admins extends Authenticatable
 {
     use HasFactory;
+    protected $fillable = ['name', 'username', 'password'];
     protected $guarded=[];
 
-    public function Transactions(){
-        return $this->hasMany(Transactions::class);
-    }
+    // public function Transactions(){
+    //     return $this->hasMany(Transactions::class);
+    // }
 }

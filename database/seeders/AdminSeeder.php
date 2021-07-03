@@ -5,7 +5,7 @@ namespace Database\Seeders;
 use App\Models\Admins;
 use Illuminate\Database\Seeder;
 
-class Databasegd extends Seeder
+class AdminSeeder extends Seeder
 {
     public function run()
     {
