@@ -10,7 +10,7 @@
                     <div class="hero__item set-bg" data-setbg="img/hero/banner.jpg">
                         <div class="hero__text">
                             <span>RECIPE</span>
-                            <h2>YOUR <br />FAVORITE <br />RECIPE</h2>
+                            <h2>YOUR! <br />FAVORITE <br />RECIPE</h2>
                             <p>Practice Makes Perfect</p>
                         </div>
                     </div>
